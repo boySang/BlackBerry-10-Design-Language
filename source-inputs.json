@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-23",
+  "pdfSha256": "1992691e60573f037fa366880c64094448f668f774fefde4eb7ca8714d0b2364",
+  "repository": "https://github.com/mybabysexy/BB10-UI-Kit",
+  "commit": "cbed5b73f3e5bc1aef10500034e4a2b9f191cd7b",
+  "reviewedFiles": [
+    {
+      "path": "DESIGN.md",
+      "gitBlobSha": "1037cbd2131e0e883eccae3688d6bcfb66f4d8b3"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha": "fe463e0f7888bbf8b82e42d55f5743508ddafb7e"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha": "a7522aed93b0ecf3128b7ad11a1e1aba7732a2b6"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/components/ActionBar.kt",
+      "gitBlobSha": "3a39b1546023d30b2d6915ce89f3d42ea94eaaf6"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/components/Dialog.kt",
+      "gitBlobSha": "f87336f4403393bd357587b06e1427ed471dbf98"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/components/Scaffold.kt",
+      "gitBlobSha": "3d30a1748e5a9b5fbe8154e1102e4b0b86e2dead"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/components/Tabs.kt",
+      "gitBlobSha": "b15141b23775d51f3e703802e6d5fcb069a52be0"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/icons/Bb10Icons.kt",
+      "gitBlobSha": "548a104530fb556506b2201b73827568286795a5"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/theme/Bb10Theme.kt",
+      "gitBlobSha": "47ce6495e534e6046832bf44a00035ff8a56eb45"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/tokens/Bb10Colors.kt",
+      "gitBlobSha": "020e03cb8bc734c265b892d3b7d850d4d09e2283"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/tokens/Bb10Dimens.kt",
+      "gitBlobSha": "a224713cfbb922e190329383768e323e8c64cf15"
+    },
+    {
+      "path": "bb10-kotlin-ui-kit/src/main/kotlin/duc1607/bb10/designsystem/tokens/Bb10Typography.kt",
+      "gitBlobSha": "dc38fb5627bea5a03fe573979e8e05d7f40a875a"
+    }
+  ],
+  "scope": "仅核对来源代码，未执行构建、测试、安装或依赖集成。",
+  "pdfUrl": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf",
+  "pdfPublished": "2015-03-23",
+  "pdfPages": 156,
+  "distribution": "external-references",
+  "maintainer": "酒鬼成员"
+}

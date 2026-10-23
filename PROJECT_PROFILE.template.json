@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "designLanguageVersion": "1.1.2",
+  "status": "unconfigured-template-not-approved",
+  "projectName": null,
+  "adoptionMode": null,
+  "allowedModes": [
+    "strict-source",
+    "platform-adapted",
+    "inspired"
+  ],
+  "target": {
+    "platform": null,
+    "osVersion": null,
+    "deviceModel": null,
+    "screenPixels": null,
+    "physicalPpi": null,
+    "logicalViewport": null,
+    "logicalUnit": null,
+    "systemInsets": null,
+    "referenceBb10Profile": null,
+    "supportedOrientations": null,
+    "inputCapabilities": null
+  },
+  "theme": {
+    "mode": null,
+    "brandPrimary": null
+  },
+  "fonts": {
+    "latinFamily": null,
+    "cjkFamily": null,
+    "fallbackOrder": null,
+    "assetOrLicenseEvidence": null,
+    "systemFontScalingPolicy": null
+  },
+  "platformMappings": {
+    "systemBack": null,
+    "bezelGestures": null,
+    "notifications": null,
+    "sharingAndCards": null,
+    "activeFrames": null,
+    "keyboardAndTrackpad": null
+  },
+  "projectTokens": {
+    "logicalUnitsPerDu": {
+      "value": null,
+      "unit": "target-logical-unit/du",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "pageMargin": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "spacingScale": {
+      "value": null,
+      "unit": "target-logical-unit-list",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "titleBarHeight": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "actionBarHeight": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "signatureActionDiameter": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "signatureActionElevationOffset": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "listItemMinimumHeight": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "buttonVisualHeight": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "buttonMinimumWidth": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "buttonPadding": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "fieldVisualHeight": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "cornerRadius": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "dividerThickness": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "focusBorder": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "touchTargetMinimum": {
+      "value": null,
+      "unit": "target-logical-unit",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "fontRoleMapping": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "lineHeightMapping": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "letterSpacingMapping": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "surfaceColorMapping": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "semanticColorMapping": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "motionDurationMapping": {
+      "value": null,
+      "unit": "ms-object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "motionEasingMapping": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "longPressThreshold": {
+      "value": null,
+      "unit": "ms",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "undoTimingPolicy": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "contrastAcceptanceTargets": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "fontScaleTestCases": {
+      "value": null,
+      "unit": "list",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    },
+    "reducedMotionPolicy": {
+      "value": null,
+      "unit": "object",
+      "status": "unresolved",
+      "basis": null,
+      "approvedBy": null,
+      "approvedOn": null
+    }
+  },
+  "exceptions": [],
+  "approvalEvidence": null,
+  "titleBarVariant": null,
+  "allowedTitleBarVariants": [
+    "framed",
+    "lightweight-10.3"
+  ]
+}

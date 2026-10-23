@@ -1,0 +1,14 @@
+# 仅保留轻量规范与参数，下载资料放在版本历史之外。
+.DS_Store
+__pycache__/
+*.pyc
+downloads/
+artifacts/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.ttf
+*.otf
+*.woff*

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "1.1.2",
+  "format": "bb10-figure-measurements-and-platform-profile",
+  "policy": "原图量测为近似推导，不是原文明示的BB10 px/du；实施值属于项目映射，不是官方测量值。",
+  "sourcePdfSha256": "1992691e60573f037fa366880c64094448f668f774fefde4eb7ca8714d0b2364",
+  "figures": {
+    "action-bar-p031": {
+      "file": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf#page=31",
+      "page": 31,
+      "imagePixels": [
+        600,
+        129
+      ],
+      "sourceUrl": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf#page=31",
+      "extractedImageSha256": "9c0a081d67303c5a3901e38d39688fa6d26efefaddb7546a2c9be0d002893958",
+      "note": "尺寸与校验码记录原先用于量测的提取图；图片不随仓库分发，查看官方PDF对应页。"
+    },
+    "title-bar-p007": {
+      "file": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf#page=7",
+      "page": 7,
+      "imagePixels": [
+        280,
+        39
+      ],
+      "sourceUrl": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf#page=7",
+      "extractedImageSha256": "0574b55c4272d1e8f38cf1b3e75705961844e9706994e0e8d3d34a17f1db961e",
+      "note": "尺寸与校验码记录原先用于量测的提取图；图片不随仓库分发，查看官方PDF对应页。"
+    },
+    "dropdown-p104": {
+      "file": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf#page=104",
+      "page": 104,
+      "imagePixels": [
+        273,
+        171
+      ],
+      "sourceUrl": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf#page=104",
+      "extractedImageSha256": "1719f24b4df04468afae03569ef83370c5ba2501a046262cce43297938801f12",
+      "note": "尺寸与校验码记录原先用于量测的提取图；图片不随仓库分发，查看官方PDF对应页。"
+    },
+    "title-bar-framed-p007": {
+      "file": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf#page=7",
+      "page": 7,
+      "imagePixels": [
+        280,
+        44
+      ],
+      "sourceUrl": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf#page=7",
+      "extractedImageSha256": "9117fb6940a4a5c8b1c0ea292d29504406ee57b4e419c1fca616038e39ebb3f2",
+      "note": "尺寸与校验码记录原先用于量测的提取图；图片不随仓库分发，查看官方PDF对应页。"
+    }
+  },
+  "measurements": {
+    "actionBar.height": {
+      "value": 0.15666666666666668,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 94,
+      "sourceFigureWidth": 600,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        31
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "action-bar-p031"
+    },
+    "signature.diameter": {
+      "value": 0.15666666666666668,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 94,
+      "sourceFigureWidth": 600,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        31
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "action-bar-p031"
+    },
+    "signature.exposure": {
+      "value": 0.051666666666666666,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 31,
+      "sourceFigureWidth": 600,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        31
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "action-bar-p031"
+    },
+    "edge.width": {
+      "value": 0.15333333333333332,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 92,
+      "sourceFigureWidth": 600,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        31
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "action-bar-p031"
+    },
+    "titleBar.height": {
+      "value": 0.1392857142857143,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 39,
+      "sourceFigureWidth": 280,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        7
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "title-bar-p007"
+    },
+    "titleBar.edgeWidth": {
+      "value": 0.16428571428571428,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 46,
+      "sourceFigureWidth": 280,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        7
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "title-bar-p007"
+    },
+    "titleBar.framed.height": {
+      "value": 0.15714285714285714,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 44,
+      "sourceFigureWidth": 280,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        7
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "title-bar-framed-p007"
+    },
+    "titleBar.framed.buttonWidth": {
+      "value": 0.19285714285714287,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 54,
+      "sourceFigureWidth": 280,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        7
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "title-bar-framed-p007"
+    },
+    "titleBar.framed.buttonHeight": {
+      "value": 0.10357142857142858,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 29,
+      "sourceFigureWidth": 280,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        7
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "title-bar-framed-p007"
+    },
+    "titleBar.framed.edgeInset": {
+      "value": 0.02857142857142857,
+      "unit": "ratio-to-source-figure-width",
+      "measuredPixels": 8,
+      "sourceFigureWidth": 280,
+      "toleranceSourcePixels": 2,
+      "pages": [
+        7
+      ],
+      "evidence": "derived-from-source-figure",
+      "figure": "title-bar-framed-p007"
+    }
+  },
+  "implementationProfile": {
+    "status": "reference-implementation-not-official",
+    "referenceLogicalWidth": 360,
+    "geometry": {
+      "actionBarHeight": 56.4,
+      "signatureDiameter": 56.4,
+      "signatureExposure": 18.6,
+      "edgeZoneWidth": 55.2,
+      "visibleActionIcon": 29,
+      "signatureIcon": 31,
+      "actionLabel": 10.5,
+      "iconLabelGap": 4,
+      "titleBarHeight": 56.6,
+      "titleBarEdgeWidth": 89.4,
+      "dropdownHeaderHeight": 33,
+      "dropdownOptionHeight": 31,
+      "minimumActualDropdownTouchHeightCssPx": 44,
+      "backIconCanvas": 30,
+      "backDividerInset": 5,
+      "framedTitleBarHeight": 56.6,
+      "framedTitleBarZoneWidth": 89.4,
+      "framedTitleButtonWidth": 69.4,
+      "framedTitleButtonHeight": 37.3,
+      "framedTitleButtonEdgeInset": 10,
+      "lightweightTitleBarHeight": 50,
+      "lightweightTitleBarEdgeWidth": 59,
+      "framedTitleButtonRadius": 4
+    },
+    "motion": {
+      "pageAndMenuMs": 240,
+      "dropdownMs": 180,
+      "easing": "cubic-bezier(.2,.7,.2,1)",
+      "menuWidthRatio": 0.7,
+      "hierarchyUnderlayShiftRatio": 0.25,
+      "search": "高度揭示并推动后续内容重排",
+      "reducedMotion": "减少动画时直接到相同终态并保持焦点规则"
+    },
+    "stateMappings": {
+      "titleBarDisabledOpacity": 1,
+      "pressedSignatureBase": "#087099",
+      "pressedActionSurface": "#323232",
+      "note": "这些映射属于复刻配置，不是PDF明示的皮肤数值。",
+      "titleBarEnabledText": "#F0F0F0",
+      "titleBarPressedText": "#FFFFFF",
+      "titleBarPressedSurface": [
+        "#087099",
+        "#005476"
+      ],
+      "pressContainment": "在热区内触下高亮；移出撤销；移回恢复；禁用时不高亮。",
+      "titleBarDisabledText": "#7E7E7E",
+      "titleBarPressedBorder": "#0092CC",
+      "titleBarPressedScope": "独立按钮面变化，外部命令热区保持稳定。"
+    },
+    "titleBarVariant": "framed"
+  },
+  "distribution": "external-references"
+}

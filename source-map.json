@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "sourcePageCount": 156,
+  "pageNumberConvention": "PDF物理页码从1开始，正文印刷页码与其一致。",
+  "sections": [
+    {
+      "pages": [
+        1,
+        2
+      ],
+      "heading": "封面与出版信息",
+      "rules": [
+        "BASE-01"
+      ]
+    },
+    {
+      "pages": [
+        3,
+        4
+      ],
+      "heading": "目录",
+      "rules": [
+        "SOURCE_MAP"
+      ]
+    },
+    {
+      "pages": [
+        5,
+        8
+      ],
+      "heading": "10.3视觉更新",
+      "rules": [
+        "BASE-01",
+        "EXP-07",
+        "VIS-01"
+      ]
+    },
+    {
+      "pages": [
+        9,
+        18
+      ],
+      "heading": "关键原则",
+      "rules": [
+        "EXP-01",
+        "EXP-02",
+        "EXP-03",
+        "EXP-04",
+        "EXP-05",
+        "EXP-06"
+      ]
+    },
+    {
+      "pages": [
+        19,
+        20
+      ],
+      "heading": "测量设计单位",
+      "rules": [
+        "GEO-01",
+        "GEO-02"
+      ]
+    },
+    {
+      "pages": [
+        21,
+        22
+      ],
+      "heading": "线框原型技巧、工具与导航引言",
+      "rules": [
+        "PROCESS-01"
+      ]
+    },
+    {
+      "pages": [
+        23,
+        27
+      ],
+      "heading": "应用结构",
+      "rules": [
+        "NAV-01",
+        "NAV-02",
+        "NAV-03",
+        "NAV-04",
+        "NAV-05",
+        "NAV-06"
+      ]
+    },
+    {
+      "pages": [
+        28,
+        30
+      ],
+      "heading": "屏幕视图",
+      "rules": [
+        "PAGE-01"
+      ]
+    },
+    {
+      "pages": [
+        31,
+        36
+      ],
+      "heading": "屏幕结构",
+      "rules": [
+        "PAGE-02",
+        "PAGE-03",
+        "PAGE-04",
+        "PAGE-05",
+        "PAGE-06",
+        "PAGE-07"
+      ]
+    },
+    {
+      "pages": [
+        37,
+        48
+      ],
+      "heading": "不同屏幕尺寸",
+      "rules": [
+        "ADAPT-01",
+        "ADAPT-02"
+      ]
+    },
+    {
+      "pages": [
+        49,
+        50
+      ],
+      "heading": "竖屏与横屏方向",
+      "rules": [
+        "ADAPT-03"
+      ]
+    },
+    {
+      "pages": [
+        51,
+        56
+      ],
+      "heading": "手势",
+      "rules": [
+        "INPUT-01",
+        "INPUT-04",
+        "TASK-13"
+      ]
+    },
+    {
+      "pages": [
+        57,
+        58
+      ],
+      "heading": "键盘",
+      "rules": [
+        "INPUT-02",
+        "INPUT-03"
+      ]
+    },
+    {
+      "pages": [
+        59,
+        61
+      ],
+      "heading": "触控板、Classic导航键与通知引言",
+      "rules": [
+        "INPUT-05",
+        "NOTIFY-01"
+      ]
+    },
+    {
+      "pages": [
+        62,
+        67
+      ],
+      "heading": "通知与调用框架引言",
+      "rules": [
+        "NOTIFY-01",
+        "NOTIFY-02"
+      ]
+    },
+    {
+      "pages": [
+        68,
+        68
+      ],
+      "heading": "分享与调用框架",
+      "rules": [
+        "NOTIFY-02"
+      ]
+    },
+    {
+      "pages": [
+        69,
+        72
+      ],
+      "heading": "跨应用任务界面Card",
+      "rules": [
+        "TASK-05"
+      ]
+    },
+    {
+      "pages": [
+        73,
+        73
+      ],
+      "heading": "语言与文案",
+      "rules": [
+        "COPY-01",
+        "TASK-12"
+      ]
+    },
+    {
+      "pages": [
+        74,
+        76
+      ],
+      "heading": "可访问性",
+      "rules": [
+        "ACCESS-01",
+        "TYPE-03",
+        "STATE-01"
+      ]
+    },
+    {
+      "pages": [
+        77,
+        81
+      ],
+      "heading": "菜单",
+      "rules": [
+        "TASK-01",
+        "TASK-02",
+        "TASK-03"
+      ]
+    },
+    {
+      "pages": [
+        82,
+        83
+      ],
+      "heading": "表单与应用菜单续章",
+      "rules": [
+        "TASK-03",
+        "TASK-06",
+        "TASK-07",
+        "TASK-08"
+      ]
+    },
+    {
+      "pages": [
+        84,
+        85
+      ],
+      "heading": "临时任务页Sheet",
+      "rules": [
+        "TASK-04"
+      ]
+    },
+    {
+      "pages": [
+        86,
+        88
+      ],
+      "heading": "对话框与轻提示",
+      "rules": [
+        "COMP-12",
+        "COMP-13"
+      ]
+    },
+    {
+      "pages": [
+        89,
+        90
+      ],
+      "heading": "设置",
+      "rules": [
+        "TASK-09"
+      ]
+    },
+    {
+      "pages": [
+        91,
+        93
+      ],
+      "heading": "进度与活动指示",
+      "rules": [
+        "COMP-11",
+        "STATE-01"
+      ]
+    },
+    {
+      "pages": [
+        94,
+        95
+      ],
+      "heading": "保存",
+      "rules": [
+        "TASK-10"
+      ]
+    },
+    {
+      "pages": [
+        96,
+        98
+      ],
+      "heading": "删除与错误预防引言",
+      "rules": [
+        "TASK-11",
+        "TASK-12"
+      ]
+    },
+    {
+      "pages": [
+        99,
+        102
+      ],
+      "heading": "避免和处理错误",
+      "rules": [
+        "TASK-08",
+        "TASK-12"
+      ]
+    },
+    {
+      "pages": [
+        103,
+        109
+      ],
+      "heading": "组件",
+      "rules": [
+        "COMP-01",
+        "COMP-02",
+        "COMP-03",
+        "COMP-04",
+        "COMP-05",
+        "COMP-06",
+        "COMP-07",
+        "COMP-08",
+        "COMP-09",
+        "COMP-10",
+        "COMP-11"
+      ]
+    },
+    {
+      "pages": [
+        110,
+        110
+      ],
+      "heading": "触控热区",
+      "rules": [
+        "GEO-02"
+      ]
+    },
+    {
+      "pages": [
+        111,
+        113
+      ],
+      "heading": "高亮反馈",
+      "rules": [
+        "MOTION-03",
+        "MOTION-04"
+      ]
+    },
+    {
+      "pages": [
+        114,
+        114
+      ],
+      "heading": "空状态",
+      "rules": [
+        "STATE-01"
+      ]
+    },
+    {
+      "pages": [
+        115,
+        116
+      ],
+      "heading": "色彩",
+      "rules": [
+        "COLOR-01",
+        "COLOR-02"
+      ]
+    },
+    {
+      "pages": [
+        117,
+        119
+      ],
+      "heading": "应用图标",
+      "rules": [
+        "ASSET-01"
+      ]
+    },
+    {
+      "pages": [
+        120,
+        123
+      ],
+      "heading": "活动框架Active Frames",
+      "rules": [
+        "ASSET-02"
+      ]
+    },
+    {
+      "pages": [
+        124,
+        124
+      ],
+      "heading": "启动页与活动框架续章",
+      "rules": [
+        "ASSET-02",
+        "ASSET-03"
+      ]
+    },
+    {
+      "pages": [
+        125,
+        128
+      ],
+      "heading": "提示音设计与应用内图标引言",
+      "rules": [
+        "SOUND-01",
+        "ICON-01"
+      ]
+    },
+    {
+      "pages": [
+        129,
+        146
+      ],
+      "heading": "应用内图标",
+      "rules": [
+        "ICON-01",
+        "ICON-02",
+        "ICON-03",
+        "ICON-04",
+        "ICON-05"
+      ]
+    },
+    {
+      "pages": [
+        147,
+        147
+      ],
+      "heading": "动画与过渡",
+      "rules": [
+        "MOTION-01"
+      ]
+    },
+    {
+      "pages": [
+        148,
+        149
+      ],
+      "heading": "OLED显示设计与排版引言",
+      "rules": [
+        "ADAPT-04",
+        "TYPE-01"
+      ]
+    },
+    {
+      "pages": [
+        150,
+        150
+      ],
+      "heading": "字体与排版",
+      "rules": [
+        "TYPE-01",
+        "TYPE-02"
+      ]
+    },
+    {
+      "pages": [
+        151,
+        152
+      ],
+      "heading": "文字颜色与视觉资产尺寸表",
+      "rules": [
+        "COLOR-01",
+        "ASSET-01",
+        "ASSET-02",
+        "ICON-02"
+      ]
+    },
+    {
+      "pages": [
+        153,
+        156
+      ],
+      "heading": "原文法律声明",
+      "rules": [
+        "SOURCES"
+      ]
+    }
+  ],
+  "review": {
+    "fullTextReadPages": [
+      1,
+      156
+    ],
+    "overviewRenderedPages": [
+      1,
+      156
+    ],
+    "overviewContactSheetsInspected": 13,
+    "numericFiguresInspected": [
+      116,
+      119,
+      121,
+      122,
+      123,
+      124,
+      150,
+      151
+    ],
+    "note": "总览用于检查页面结构与图示，不代表全部细小字符可读；数字图表另以较高分辨率核对。"
+  }
+}

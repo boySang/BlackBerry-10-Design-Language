@@ -1,0 +1,1511 @@
+{
+  "schemaVersion": 1,
+  "format": "bb10-source-reference-not-dtcg",
+  "packageVersion": "1.1.2",
+  "source": {
+    "file": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf",
+    "published": "2015-03-23",
+    "pages": 156,
+    "sha256": "1992691e60573f037fa366880c64094448f668f774fefde4eb7ca8714d0b2364",
+    "url": "https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf",
+    "originalFileName": "UI_Guidelines_BlackBerry_10.pdf"
+  },
+  "policy": "PDF为主来源；保留原始单位，平台映射与待定项目值分别记录。",
+  "tokens": {
+    "measurement.du.approximatePhysicalSize": {
+      "value": 0.69,
+      "unit": "mm",
+      "pages": [
+        19
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01",
+      "note": "近似值，不是跨平台的精确换算。"
+    },
+    "device.classic.bucket": {
+      "value": 8,
+      "unit": "px/du",
+      "pages": [
+        20
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01"
+    },
+    "device.classic.targetResolution": {
+      "value": [
+        720,
+        720
+      ],
+      "unit": "px",
+      "pages": [
+        20,
+        46,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01",
+      "note": "全屏尺寸，未扣除系统区域；机型：Classic"
+    },
+    "device.classic.sourcePpi": {
+      "value": [
+        294
+      ],
+      "unit": "ppi",
+      "pages": [
+        20,
+        46,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "note": "历史来源规格，需要核对真实目标设备。"
+    },
+    "device.q10-family.bucket": {
+      "value": 9,
+      "unit": "px/du",
+      "pages": [
+        20
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01"
+    },
+    "device.q10-family.targetResolution": {
+      "value": [
+        720,
+        720
+      ],
+      "unit": "px",
+      "pages": [
+        20,
+        39,
+        40,
+        41,
+        44,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01",
+      "note": "全屏尺寸，未扣除系统区域；机型：Q10, Q5, P’9983"
+    },
+    "device.q10-family.sourcePpi": {
+      "value": [
+        330
+      ],
+      "unit": "ppi",
+      "pages": [
+        20,
+        39,
+        40,
+        41,
+        44,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "note": "历史来源规格，需要核对真实目标设备。"
+    },
+    "device.z10-family.bucket": {
+      "value": 10,
+      "unit": "px/du",
+      "pages": [
+        20
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01"
+    },
+    "device.z10-family.targetResolution": {
+      "value": [
+        768,
+        1280
+      ],
+      "unit": "px",
+      "pages": [
+        20,
+        38,
+        42,
+        151
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01",
+      "note": "全屏尺寸，未扣除系统区域；机型：Z10, P’9982"
+    },
+    "device.z10-family.sourcePpi": {
+      "value": [
+        356
+      ],
+      "unit": "ppi",
+      "pages": [
+        20,
+        38,
+        42,
+        151
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "note": "历史来源规格，需要核对真实目标设备。"
+    },
+    "device.z30-family.bucket": {
+      "value": 8,
+      "unit": "px/du",
+      "pages": [
+        20
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01"
+    },
+    "device.z30-family.targetResolution": {
+      "value": [
+        720,
+        1280
+      ],
+      "unit": "px",
+      "pages": [
+        20,
+        39,
+        43,
+        47,
+        151
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01",
+      "note": "全屏尺寸，未扣除系统区域；机型：Z30, Z3, Leap"
+    },
+    "device.z30-family.sourcePpi": {
+      "value": [
+        295
+      ],
+      "unit": "ppi",
+      "pages": [
+        20,
+        39,
+        43,
+        47,
+        151
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "note": "Passport在第20页为452ppi，在第45/152页为453ppi；Z30系列在第20/151页分组为295ppi，Leap第47页另记294ppi。"
+    },
+    "device.passport.bucket": {
+      "value": 12,
+      "unit": "px/du",
+      "pages": [
+        20
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01"
+    },
+    "device.passport.targetResolution": {
+      "value": [
+        1440,
+        1440
+      ],
+      "unit": "px",
+      "pages": [
+        20,
+        45,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "GEO-01",
+      "note": "全屏尺寸，未扣除系统区域；机型：Passport"
+    },
+    "device.passport.sourcePpi": {
+      "value": [
+        452,
+        453
+      ],
+      "unit": "ppi",
+      "pages": [
+        20,
+        45,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "note": "Passport在第20页为452ppi，在第45/152页为453ppi；Z30系列在第20/151页分组为295ppi，Leap第47页另记294ppi。"
+    },
+    "device.z3.nativeResolution": {
+      "value": [
+        540,
+        960
+      ],
+      "unit": "px",
+      "pages": [
+        47
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "note": "应用面向模拟的720×1280画布，bucket为8。"
+    },
+    "device.z3.nativePpi": {
+      "value": 221,
+      "unit": "ppi",
+      "pages": [
+        47
+      ],
+      "evidence": "source-text",
+      "strength": "reference"
+    },
+    "device.leap.detailPpi": {
+      "value": 294,
+      "unit": "ppi",
+      "pages": [
+        47
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "note": "第20页及分组资产表使用295ppi。"
+    },
+    "color.theme.light.canvas": {
+      "value": "#FFFFFF",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01"
+    },
+    "color.theme.dark.canvas": {
+      "value": "#000000",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01"
+    },
+    "color.theme.light.text.primary": {
+      "value": "#323232",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01"
+    },
+    "color.theme.light.text.secondary": {
+      "value": "#646464",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01"
+    },
+    "color.theme.light.text.tertiary": {
+      "value": "#828282",
+      "unit": "hex",
+      "pages": [
+        151
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01"
+    },
+    "color.theme.dark.text.primary": {
+      "value": "#F0F0F0",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01"
+    },
+    "color.theme.dark.text.secondary": {
+      "value": "#969696",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01"
+    },
+    "color.theme.dark.text.tertiary": {
+      "value": "#7D7D7D",
+      "unit": "hex",
+      "pages": [
+        151
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01"
+    },
+    "color.palette.neutral.light.primary": {
+      "value": "#F0F0F0",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.neutral.light.base": {
+      "value": "#E6E6E6",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.neutral.dark.primary": {
+      "value": "#323232",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.neutral.dark.base": {
+      "value": "#282828",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.blue.primary": {
+      "value": "#0092CC",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.blue.base": {
+      "value": "#087099",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.red.primary": {
+      "value": "#FF3333",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.red.base": {
+      "value": "#CC3333",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.yellow.primary": {
+      "value": "#DCD427",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.yellow.base": {
+      "value": "#B7B327",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.green.primary": {
+      "value": "#779933",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "color.palette.green.base": {
+      "value": "#5C7829",
+      "unit": "hex",
+      "pages": [
+        116
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "COLOR-01",
+      "note": "调色板色样，不是逐组件的完整表面色映射。"
+    },
+    "icon.gradient.enabledOnLight": {
+      "value": [
+        "#4F4F4F",
+        "#363636"
+      ],
+      "unit": "hex-top-to-bottom",
+      "pages": [
+        142
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "rule": "ICON-05"
+    },
+    "icon.gradient.enabledOnDark": {
+      "value": [
+        "#E3E3E3",
+        "#D1D1D1"
+      ],
+      "unit": "hex-top-to-bottom",
+      "pages": [
+        142
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "rule": "ICON-05"
+    },
+    "icon.gradient.selected": {
+      "value": [
+        "#3CBCE7",
+        "#01A8DF"
+      ],
+      "unit": "hex-top-to-bottom",
+      "pages": [
+        143
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "rule": "ICON-05"
+    },
+    "icon.contentSemanticColor.positive": {
+      "value": "#00B800",
+      "unit": "hex",
+      "pages": [
+        143
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "rule": "COLOR-02",
+      "note": "仅用于内容区图标，不是完整的全局错误、文字或背景语义色板。"
+    },
+    "icon.contentSemanticColor.attention": {
+      "value": "#E6B400",
+      "unit": "hex",
+      "pages": [
+        143
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "rule": "COLOR-02",
+      "note": "仅用于内容区图标，不是完整的全局错误、文字或背景语义色板。"
+    },
+    "icon.contentSemanticColor.warning": {
+      "value": "#D60000",
+      "unit": "hex",
+      "pages": [
+        143
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "rule": "COLOR-02",
+      "note": "仅用于内容区图标，不是完整的全局错误、文字或背景语义色板。"
+    },
+    "icon.contentSemanticColor.information": {
+      "value": "#00A8DF",
+      "unit": "hex",
+      "pages": [
+        143
+      ],
+      "evidence": "source-text",
+      "strength": "reference",
+      "rule": "COLOR-02",
+      "note": "仅用于内容区图标，不是完整的全局错误、文字或背景语义色板。"
+    },
+    "icon.disabled.opacity": {
+      "value": 0.5,
+      "unit": "ratio",
+      "pages": [
+        142,
+        143
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-05",
+      "note": "仅适用于所示图标处理，不能自动扩展到全部组件。"
+    },
+    "icon.canvas.large": {
+      "value": [
+        8,
+        8
+      ],
+      "unit": "du",
+      "pages": [
+        130,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-02"
+    },
+    "icon.focal.large": {
+      "value": [
+        5.5,
+        5.5
+      ],
+      "unit": "du",
+      "pages": [
+        130,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-02"
+    },
+    "icon.canvas.medium": {
+      "value": [
+        7,
+        7
+      ],
+      "unit": "du",
+      "pages": [
+        134,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-02"
+    },
+    "icon.focal.medium": {
+      "value": [
+        4.5,
+        4.5
+      ],
+      "unit": "du",
+      "pages": [
+        134,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-02"
+    },
+    "icon.canvas.small": {
+      "value": [
+        6,
+        6
+      ],
+      "unit": "du",
+      "pages": [
+        134,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-02"
+    },
+    "icon.focal.small": {
+      "value": [
+        4.5,
+        4.5
+      ],
+      "unit": "du",
+      "pages": [
+        134,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-02"
+    },
+    "indicator.canvas.large": {
+      "value": [
+        5,
+        4
+      ],
+      "unit": "du",
+      "pages": [
+        136,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-02"
+    },
+    "indicator.canvas.small": {
+      "value": [
+        3,
+        3
+      ],
+      "unit": "du",
+      "pages": [
+        136,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "definition",
+      "rule": "ICON-02"
+    },
+    "icon.silhouette.minimumThickness": {
+      "value": 4,
+      "unit": "source-px",
+      "pages": [
+        144
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ICON-03",
+      "note": "未明确参考设备或密度，不能视作4dp。"
+    },
+    "icon.detail.minimumThickness": {
+      "value": 2,
+      "unit": "source-px",
+      "pages": [
+        144
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ICON-03",
+      "note": "未明确参考设备或密度。"
+    },
+    "icon.objectGap": {
+      "value": 3,
+      "unit": "source-px",
+      "pages": [
+        144
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ICON-03",
+      "note": "未明确参考设备或密度。"
+    },
+    "icon.maximumObjects": {
+      "value": 3,
+      "unit": "count",
+      "pages": [
+        144
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ICON-03"
+    },
+    "icon.duplicateBackObject.scale": {
+      "value": 0.85,
+      "unit": "ratio",
+      "pages": [
+        144
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ICON-03",
+      "note": "由原文说明直接推导：后方对象缩小15%，保持笔画粗细。"
+    },
+    "icon.offCrossbar.angle": {
+      "value": 45,
+      "unit": "degree",
+      "pages": [
+        145
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ICON-04"
+    },
+    "typography.preferredFamily": {
+      "value": "Slate Pro",
+      "unit": "font-family",
+      "pages": [
+        149
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "TYPE-01",
+      "note": "原文未提供字体文件及中日韩字体回退方案。"
+    },
+    "typography.preferredWeights": {
+      "value": [
+        "medium",
+        "regular",
+        "light",
+        "light italic"
+      ],
+      "unit": "font-style",
+      "pages": [
+        149,
+        150
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "TYPE-01"
+    },
+    "typography.sourceScale.xx-small.points": {
+      "value": 4.8,
+      "unit": "source-points",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "保留原图标注，不代表网页pt/CSS或Android sp的换算。"
+    },
+    "typography.sourceScale.xx-small.pixels": {
+      "value": 24,
+      "unit": "source-px",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "未明确参考渲染比例与设备，不提供通用sp/CSS px映射。"
+    },
+    "typography.sourceScale.x-small.points": {
+      "value": 6,
+      "unit": "source-points",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "保留原图标注，不代表网页pt/CSS或Android sp的换算。"
+    },
+    "typography.sourceScale.x-small.pixels": {
+      "value": 30,
+      "unit": "source-px",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "未明确参考渲染比例与设备，不提供通用sp/CSS px映射。"
+    },
+    "typography.sourceScale.small.points": {
+      "value": 7.11,
+      "unit": "source-points",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "保留原图标注，不代表网页pt/CSS或Android sp的换算。"
+    },
+    "typography.sourceScale.small.pixels": {
+      "value": 35,
+      "unit": "source-px",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "未明确参考渲染比例与设备，不提供通用sp/CSS px映射。"
+    },
+    "typography.sourceScale.medium.points": {
+      "value": 8,
+      "unit": "source-points",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "保留原图标注，不代表网页pt/CSS或Android sp的换算。"
+    },
+    "typography.sourceScale.medium.pixels": {
+      "value": 40,
+      "unit": "source-px",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "未明确参考渲染比例与设备，不提供通用sp/CSS px映射。"
+    },
+    "typography.sourceScale.primary.points": {
+      "value": 9,
+      "unit": "source-points",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "保留原图标注，不代表网页pt/CSS或Android sp的换算。"
+    },
+    "typography.sourceScale.primary.pixels": {
+      "value": 45,
+      "unit": "source-px",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "未明确参考渲染比例与设备，不提供通用sp/CSS px映射。"
+    },
+    "typography.sourceScale.large.points": {
+      "value": 10,
+      "unit": "source-points",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "保留原图标注，不代表网页pt/CSS或Android sp的换算。"
+    },
+    "typography.sourceScale.large.pixels": {
+      "value": 50,
+      "unit": "source-px",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "未明确参考渲染比例与设备，不提供通用sp/CSS px映射。"
+    },
+    "typography.sourceScale.x-large.points": {
+      "value": 12,
+      "unit": "source-points",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "保留原图标注，不代表网页pt/CSS或Android sp的换算。"
+    },
+    "typography.sourceScale.x-large.pixels": {
+      "value": 59,
+      "unit": "source-px",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "未明确参考渲染比例与设备，不提供通用sp/CSS px映射。"
+    },
+    "typography.sourceScale.xx-large.points": {
+      "value": 16,
+      "unit": "source-points",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "保留原图标注，不代表网页pt/CSS或Android sp的换算。"
+    },
+    "typography.sourceScale.xx-large.pixels": {
+      "value": 79,
+      "unit": "source-px",
+      "pages": [
+        150
+      ],
+      "evidence": "source-figure",
+      "strength": "reference",
+      "rule": "TYPE-02",
+      "note": "未明确参考渲染比例与设备，不提供通用sp/CSS px映射。"
+    },
+    "touch.target.sourceMinimum": {
+      "value": [
+        101,
+        101
+      ],
+      "unit": "source-px",
+      "pages": [
+        110
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "GEO-02",
+      "note": "原文并列101×101px和7.2mm，且要求按密度创建热区；不能直接在目标平台照用101像素。"
+    },
+    "touch.target.physicalMinimum": {
+      "value": 7.2,
+      "unit": "mm",
+      "pages": [
+        110
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "GEO-02",
+      "note": "需要结合目标设备解释并做物理验证，见GAPS.md的A01。"
+    },
+    "navigation.actionBar.maximumTabs": {
+      "value": 4,
+      "unit": "count",
+      "pages": [
+        23
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "NAV-02"
+    },
+    "navigation.segmented.minimumSegments": {
+      "value": 2,
+      "unit": "count",
+      "pages": [
+        34
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "PAGE-07"
+    },
+    "navigation.segmented.maximumSegments": {
+      "value": 4,
+      "unit": "count",
+      "pages": [
+        34
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "PAGE-07"
+    },
+    "navigation.actionBar.recommendedMaximumActions": {
+      "value": 3,
+      "unit": "count",
+      "pages": [
+        32
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "PAGE-02"
+    },
+    "menu.application.maximumActions": {
+      "value": 5,
+      "unit": "count",
+      "pages": [
+        81
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "TASK-03"
+    },
+    "settings.recommendedMaximumDrillDownLevels": {
+      "value": 2,
+      "unit": "count",
+      "pages": [
+        90
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "TASK-09"
+    },
+    "dialog.minimumButtons": {
+      "value": 1,
+      "unit": "count",
+      "pages": [
+        87
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "COMP-12"
+    },
+    "dialog.maximumButtons": {
+      "value": 4,
+      "unit": "count",
+      "pages": [
+        87
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "COMP-12"
+    },
+    "dialog.heightRecommendedUpperBoundary": {
+      "value": 0.5,
+      "unit": "screen-height-ratio-exclusive",
+      "pages": [
+        86
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "COMP-12"
+    },
+    "dialog.body.maximumSentences": {
+      "value": 2,
+      "unit": "count",
+      "pages": [
+        87
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "COMP-12"
+    },
+    "feedback.toast.normalDuration": {
+      "value": 3,
+      "unit": "s",
+      "pages": [
+        66,
+        88,
+        100
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "COMP-13"
+    },
+    "feedback.progress.indicatorRequiredBeyond": {
+      "value": 3,
+      "unit": "s",
+      "pages": [
+        91,
+        107
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "STATE-01",
+      "note": "等待超过3秒应提供指示；这不是反馈前必须等待的时间。"
+    },
+    "motion.recommendedMaximumEffectsPerElement": {
+      "value": 2,
+      "unit": "count",
+      "pages": [
+        147
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "MOTION-01"
+    },
+    "assets.appIcon.symbolScale": {
+      "value": 0.62,
+      "unit": "ratio",
+      "pages": [
+        118
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-01"
+    },
+    "audio.notification.sampleRate": {
+      "value": 48000,
+      "unit": "Hz",
+      "pages": [
+        128
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "SOUND-01"
+    },
+    "audio.notification.minimumBitrate": {
+      "value": 128,
+      "unit": "kbps",
+      "pages": [
+        128
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "SOUND-01"
+    },
+    "feedback.deleteUndo.disappearWithinAfterScreenInteraction": {
+      "value": 3,
+      "unit": "s",
+      "pages": [
+        97
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "TASK-11",
+      "note": "原文采用特殊计时表述，不同于普通Toast；完整可访问性计时尚未规定。"
+    },
+    "highlight.longPress.initialBorder": {
+      "value": 4,
+      "unit": "source-px",
+      "pages": [
+        112
+      ],
+      "evidence": "source-figure",
+      "strength": "example",
+      "rule": "MOTION-04",
+      "note": "网格与列表；原文未明确参考密度。"
+    },
+    "highlight.longPress.gridFinalBorder": {
+      "value": 8,
+      "unit": "source-px",
+      "pages": [
+        112
+      ],
+      "evidence": "source-figure",
+      "strength": "example",
+      "rule": "MOTION-04",
+      "note": "仅用于网格，不作通用焦点边框。"
+    },
+    "assets.appIcon.720x720": {
+      "value": [
+        90,
+        90
+      ],
+      "unit": "px",
+      "pages": [
+        117,
+        151,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-01"
+    },
+    "assets.activeFrame.720x720": {
+      "value": [
+        310,
+        211
+      ],
+      "unit": "px",
+      "pages": [
+        120,
+        121,
+        151,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02",
+      "note": "内容图像；系统页脚自动显示。"
+    },
+    "assets.activeFrame.footerFont.720x720": {
+      "value": 30,
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02"
+    },
+    "assets.appIcon.768x1280": {
+      "value": [
+        110,
+        110
+      ],
+      "unit": "px",
+      "pages": [
+        117,
+        151,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-01"
+    },
+    "assets.activeFrame.768x1280": {
+      "value": [
+        334,
+        396
+      ],
+      "unit": "px",
+      "pages": [
+        120,
+        121,
+        151,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02",
+      "note": "内容图像；系统页脚自动显示。"
+    },
+    "assets.activeFrame.footerFont.768x1280": {
+      "value": 35,
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02"
+    },
+    "assets.appIcon.720x1280": {
+      "value": [
+        96,
+        96
+      ],
+      "unit": "px",
+      "pages": [
+        117,
+        151,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-01"
+    },
+    "assets.activeFrame.720x1280": {
+      "value": [
+        319,
+        437
+      ],
+      "unit": "px",
+      "pages": [
+        120,
+        121,
+        151,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02",
+      "note": "内容图像；系统页脚自动显示。"
+    },
+    "assets.activeFrame.footerFont.720x1280": {
+      "value": 30,
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02"
+    },
+    "assets.appIcon.1440x1440": {
+      "value": [
+        144,
+        144
+      ],
+      "unit": "px",
+      "pages": [
+        117,
+        151,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-01"
+    },
+    "assets.activeFrame.1440x1440.large": {
+      "value": [
+        440,
+        486
+      ],
+      "unit": "px",
+      "pages": [
+        121,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02"
+    },
+    "assets.activeFrame.1440x1440.small": {
+      "value": [
+        440,
+        195
+      ],
+      "unit": "px",
+      "pages": [
+        121,
+        152
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02"
+    },
+    "assets.activeFrame.bodyFont": {
+      "value": 35,
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02",
+      "note": "Slate Pro常规字重，仅用于Active Frame语境。"
+    },
+    "assets.activeFrame.secondaryFont": {
+      "value": 30,
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02",
+      "note": "Slate Pro常规字重，仅用于Active Frame语境。"
+    },
+    "assets.activeFrame.timestampFont": {
+      "value": 24,
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02",
+      "note": "Slate Pro常规字重，仅用于Active Frame语境。"
+    },
+    "assets.activeFrame.headerFont": {
+      "value": 25,
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02",
+      "note": "Slate Pro常规字重，仅用于Active Frame语境。"
+    },
+    "assets.activeFrame.avatar": {
+      "value": [
+        50,
+        50
+      ],
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "ASSET-02",
+      "note": "Slate Pro常规字重，仅用于Active Frame语境。"
+    },
+    "assets.activeFrame.exampleHeaderBody.720x1280": {
+      "value": [
+        52,
+        385
+      ],
+      "unit": "px",
+      "pages": [
+        121
+      ],
+      "evidence": "source-figure",
+      "strength": "example",
+      "rule": "ASSET-02"
+    },
+    "assets.activeFrame.exampleHeaderBody.768x1280": {
+      "value": [
+        62,
+        334
+      ],
+      "unit": "px",
+      "pages": [
+        122
+      ],
+      "evidence": "source-figure",
+      "strength": "example",
+      "rule": "ASSET-02"
+    },
+    "assets.activeFrame.exampleHeaderBody.720x720": {
+      "value": [
+        56,
+        155
+      ],
+      "unit": "px",
+      "pages": [
+        122
+      ],
+      "evidence": "source-figure",
+      "strength": "example",
+      "rule": "ASSET-02"
+    },
+    "assets.activeFrame.exampleLargeRows": {
+      "value": [
+        114,
+        185,
+        185
+      ],
+      "unit": "px",
+      "pages": [
+        123
+      ],
+      "evidence": "source-figure",
+      "strength": "example",
+      "rule": "ASSET-02",
+      "note": "原图子区域因分隔与取整，与总高486px存在差额。"
+    },
+    "assets.activeFrame.exampleSmallGridColumn": {
+      "value": 146,
+      "unit": "px",
+      "pages": [
+        124
+      ],
+      "evidence": "source-figure",
+      "strength": "example",
+      "rule": "ASSET-02",
+      "note": "440px框架内分三列；不能将已取整的列宽相乘推断精确总宽。"
+    },
+    "assets.appIcon.examplePalette": {
+      "value": [
+        "#96B800",
+        "#CC3F10",
+        "#0098F0",
+        "#A30D7E",
+        "#121212",
+        "#262626",
+        "#F8F8F8"
+      ],
+      "unit": "hex-list",
+      "pages": [
+        119
+      ],
+      "evidence": "source-figure",
+      "strength": "example",
+      "rule": "ASSET-01"
+    },
+    "audio.notification.format": {
+      "value": "m4a",
+      "unit": "file-format",
+      "pages": [
+        128
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "SOUND-01"
+    },
+    "audio.uiFeedback.format": {
+      "value": "wav",
+      "unit": "file-format",
+      "pages": [
+        128
+      ],
+      "evidence": "source-text",
+      "strength": "recommendation",
+      "rule": "SOUND-01"
+    }
+  },
+  "distribution": "external-references"
+}
