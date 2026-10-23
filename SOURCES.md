@@ -35,7 +35,7 @@
 ## 推荐引用格式
 
 ```text
-酒鬼成员：《BlackBerry 10设计语言》，版本1.1.2。
+酒鬼成员：《BlackBerry 10设计语言》，版本1.1.3。
 https://github.com/boySang/BlackBerry-10-Design-Language
 主来源：BlackBerry 10 UI Guidelines，2015-03-23。
 实现参考：mybabysexy/BB10-UI-Kit，固定提交cbed5b73f3e5bc1aef10500034e4a2b9f191cd7b。

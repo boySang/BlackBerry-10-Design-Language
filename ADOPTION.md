@@ -80,7 +80,7 @@ your-project/
 | `platform-adapted` | 在Android、网页等承载黑莓体验 | 保留体验与页面语法，记录系统返回、单位、输入、通知、字体和安全区映射 |
 | `inspired` | 借鉴黑莓气质 | 明确采用及放弃的规则，不冒称严格还原 |
 
-这些模式是本规范的项目组织方法，不是黑莓官方分类。默认有框标题按钮使用`framed`，轻量10.3标题按钮使用`lightweight-10.3`；同类任务页统一选型。
+这些模式是本规范的项目组织方法，不是黑莓官方分类。默认标题栏使用`lightweight-10.3`轻量文字分区；`framed`仅作为历史可选变体，同类任务页统一选型。
 
 ## 写入项目入口
 
@@ -89,7 +89,7 @@ your-project/
 ```markdown
 ## 界面设计约束
 
-本项目采用 docs/design/blackberry-10/ 的 BlackBerry 10设计语言1.1.2。
+本项目采用 docs/design/blackberry-10/ 的 BlackBerry 10设计语言1.1.3。
 所有界面工作先读取 README.md、DESIGN_LANGUAGE.md、COMPONENT_STANDARDS.md、
 MOTION.md、GAPS.md，以及本项目的 PROJECT_PROFILE.json 和 DESIGN_EXCEPTIONS.md。
 
@@ -102,11 +102,11 @@ MOTION.md、GAPS.md，以及本项目的 PROJECT_PROFILE.json 和 DESIGN_EXCEPTI
 
 ```text
 请为本项目设计并实现【具体功能或页面】。
-采用 https://github.com/boySang/BlackBerry-10-Design-Language 的中文设计语言1.1.2。
+采用 https://github.com/boySang/BlackBerry-10-Design-Language 的中文设计语言1.1.3。
 固定本次采用的完整提交号并读取该版本；已有授权保存的本地副本就读取该副本。
 先完整读取 README.md、ADOPTION.md、DESIGN_LANGUAGE.md、COMPONENT_STANDARDS.md、
 MOTION.md、GAPS.md，再读取相关参数文件和 ACCEPTANCE.md。
-本项目模式为platform-adapted，标题栏采用framed有框小圆角按钮。
+本项目模式为platform-adapted，标题栏采用lightweight-10.3轻量文字式取消/保存。
 参照 PROJECT_PROFILE.template.json 建立项目配置，并记录未知值、适配和例外。
 先理解项目实际代码与设备配置，再整理页面、任务和导航结构。
 保留现有业务能力；以官方PDF为主来源，UI Kit只作实现参考。

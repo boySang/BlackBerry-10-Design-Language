@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "packageVersion": "1.1.2",
+  "packageVersion": "1.1.3",
   "format": "bb10-figure-measurements-and-platform-profile",
   "policy": "原图量测为近似推导，不是原文明示的BB10 px/du；实施值属于项目映射，不是官方测量值。",
   "sourcePdfSha256": "1992691e60573f037fa366880c64094448f668f774fefde4eb7ca8714d0b2364",
@@ -184,8 +184,8 @@
       "signatureIcon": 31,
       "actionLabel": 10.5,
       "iconLabelGap": 4,
-      "titleBarHeight": 56.6,
-      "titleBarEdgeWidth": 89.4,
+      "titleBarHeight": 50,
+      "titleBarEdgeWidth": 59,
       "dropdownHeaderHeight": 33,
       "dropdownOptionHeight": 31,
       "minimumActualDropdownTouchHeightCssPx": 44,
@@ -210,22 +210,39 @@
       "reducedMotion": "减少动画时直接到相同终态并保持焦点规则"
     },
     "stateMappings": {
-      "titleBarDisabledOpacity": 1,
+      "titleBarDisabledOpacity": 0.35,
       "pressedSignatureBase": "#087099",
       "pressedActionSurface": "#323232",
-      "note": "这些映射属于复刻配置，不是PDF明示的皮肤数值。",
-      "titleBarEnabledText": "#F0F0F0",
+      "note": "默认轻量标题栏的完整皮肤与交互映射属于项目配置，不是PDF明示数值。",
+      "titleBarEnabledText": "#0092CC",
       "titleBarPressedText": "#FFFFFF",
       "titleBarPressedSurface": [
         "#087099",
-        "#005476"
+        "#087099"
       ],
       "pressContainment": "在热区内触下高亮；移出撤销；移回恢复；禁用时不高亮。",
-      "titleBarDisabledText": "#7E7E7E",
-      "titleBarPressedBorder": "#0092CC",
-      "titleBarPressedScope": "独立按钮面变化，外部命令热区保持稳定。"
+      "titleBarDisabledText": "#0092CC",
+      "titleBarPressedBorder": "#444444",
+      "titleBarPressedScope": "当前完整命令分区变化；不显示独立按钮面，各状态共享几何。"
     },
-    "titleBarVariant": "framed"
+    "titleBarVariant": "lightweight-10.3",
+    "historicalVariants": {
+      "framed": {
+        "status": "historical-opt-in-not-default",
+        "titleBarHeight": 56.6,
+        "titleBarEdgeWidth": 89.4,
+        "enabledText": "#F0F0F0",
+        "disabledText": "#7E7E7E",
+        "disabledOpacity": 1,
+        "pressedSurface": [
+          "#087099",
+          "#005476"
+        ],
+        "pressedBorder": "#0092CC",
+        "pressScope": "独立按钮面",
+        "note": "有框几何保留在geometry的framedTitle*字段，仅显式选用该历史变体时应用。"
+      }
+    }
   },
   "distribution": "external-references"
 }
