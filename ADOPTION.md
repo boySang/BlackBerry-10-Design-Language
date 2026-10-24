@@ -90,7 +90,7 @@ your-project/
 ```markdown
 ## 界面设计约束
 
-本项目采用 docs/design/blackberry-10/ 的 BlackBerry 10设计语言1.1.4。
+本项目采用 docs/design/blackberry-10/ 的 BlackBerry 10设计语言1.2.0。
 所有界面工作先读取 README.md、DESIGN_LANGUAGE.md、COMPONENT_STANDARDS.md、
 MOTION.md、GAPS.md，以及本项目的 PROJECT_PROFILE.json 和 DESIGN_EXCEPTIONS.md。
 
@@ -103,7 +103,7 @@ MOTION.md、GAPS.md，以及本项目的 PROJECT_PROFILE.json 和 DESIGN_EXCEPTI
 
 ```text
 请为本项目设计并实现【具体功能或页面】。
-采用 https://github.com/boySang/BlackBerry-10-Design-Language 的中文设计语言1.1.4。
+采用 https://github.com/boySang/BlackBerry-10-Design-Language 的中文设计语言1.2.0。
 固定本次采用的完整提交号并读取该版本；已有授权保存的本地副本就读取该副本。
 先完整读取 README.md、ADOPTION.md、DESIGN_LANGUAGE.md、COMPONENT_STANDARDS.md、
 MOTION.md、GAPS.md，再读取相关参数文件和 ACCEPTANCE.md。
@@ -148,3 +148,11 @@ Tab当前项用顶端细线、浅色图标和文字；触摸按下另设暂态�
 例外至少记录规则编号、页面、原要求、实际处理、原因、证据与决定日期。替代字体不能记成已使用Slate Pro；网页本地提醒不能记成系统后台提醒；有框历史标题栏不能宣传为10.3新增视觉。
 
 升级时保留旧配置，比较受影响规则与参数，重新检查相关页面。对官方链接采用在线引用；下载的PDF与字体保留在项目适当的位置，避免将大文件混进规范版本历史。
+
+## 选用图标
+
+先读[图标使用标准](ICON_LIBRARY.md)，在[分类表](icons/INDEX.md)中按语义找候选，再读取[机器索引](icons/catalog.json)对应完整条目及来源许可。`official_action_pack_2013`是2013历史包；`cascades_samples`与`bbui_sample`是仓库样例，不能当成10.3系统图标全集。分类是整理者的检索方式，不是新的官方分类。
+
+项目配置记录`iconCatalogVersion`，并在`iconMappings`中逐项写明业务动作、目录ID、原文件SHA-256、实际资源路径、主题/尺寸适配与许可依据。固定规范提交后才能稳定复用；不要只记“使用官方图标”。例如业务动作“删除”可查`official_action_pack_2013:ic_delete.png`；使用前仍须处理该历史包的许可边界。`ic_done`原义是保存当前状态，`ic_reload`是刷新，不能擅自改为所有完成或撤销动作。
+
+目录收录与生产分发是两项独立决定。`distribution: metadata-only`表示本仓库只发布资料引用，不能把索引当成复制PNG的授权。需要看原图时下载联系表HTML并在浏览器选择已取得的本机原图目录，或按图标标准中的命令生成本机联系表；工具不会上传原图，也不会自动下载外部资源。

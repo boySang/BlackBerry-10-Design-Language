@@ -7,6 +7,8 @@ import hashlib
 import json
 import re
 import sys
+import base64
+from validate_icons import validate_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 PAPER_URL = 'https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf'
@@ -91,6 +93,27 @@ try:
 except (KeyError, TypeError, ValueError, OSError) as exc:
     errors.append(f'数据结构异常：{exc}')
     result = {}
+allowed_assets = {}
+try:
+    icon_result = validate_catalog(ROOT)
+    errors.extend(icon_result['errors'])
+    result['icon_catalog_entries'] = icon_result['entries']
+    catalog = read_json('icons/catalog.json')
+    allowed_assets = {str(Path('icons') / e['assetPath']): e['sha256'] for e in catalog['entries'] if e['distribution'] == 'bundled-unmodified'}
+    result['bundled_icon_pngs'] = len(allowed_assets)
+    html = (ROOT / 'icons/contact-sheet.html').read_text(encoding='utf-8')
+    encoded = re.search(r'<script id="previews" type="application/json">(.*?)</script>', html, re.S)
+    require(encoded is not None, '联系表缺少图像清单')
+    previews = json.loads(encoded.group(1)) if encoded else {}
+    require(set(previews) == set(allowed_assets.values()), '公开联系表包含未随库分发的原图，或缺少许可样例')
+    for digest, value in previews.items():
+        require(value.startswith('data:image/png;base64,'), '联系表图像不是内嵌PNG')
+        raw = base64.b64decode(value.split(',', 1)[1], validate=True)
+        require(hashlib.sha256(raw).hexdigest() == digest, '联系表原图字节不符')
+    embedded = re.search(r'<script id="catalog" type="application/json">(.*?)</script>', html, re.S)
+    require(embedded is not None and json.loads(embedded.group(1)) == catalog, '联系表索引与catalog.json不同步')
+except (KeyError, TypeError, ValueError, OSError) as exc:
+    errors.append(f'图标资料异常：{exc}')
 local_links = external_links = total_bytes = file_count = 0
 for file in ROOT.rglob('*'):
     if not file.is_file() or '.git' in file.relative_to(ROOT).parts or '__pycache__' in file.parts:
@@ -99,7 +122,11 @@ for file in ROOT.rglob('*'):
         file_count += 1
         total_bytes += file.stat().st_size
     require(file.stat().st_size < 1024 * 1024, f'文件超过轻量上限：{file.relative_to(ROOT)}')
-    require(file.suffix.lower() not in {'.pdf', '.png', '.jpg', '.jpeg', '.zip', '.ttf', '.otf', '.woff', '.woff2'}, f'混入外部资料或二进制资产：{file.name}')
+    relative = str(file.relative_to(ROOT))
+    if file.suffix.lower() == '.png' and relative in allowed_assets:
+        require(hashlib.sha256(file.read_bytes()).hexdigest() == allowed_assets[relative], '许可样例PNG字节不符：' + relative)
+        continue
+    require(file.suffix.lower() not in {'.pdf', '.png', '.jpg', '.jpeg', '.zip', '.ttf', '.otf', '.woff', '.woff2'}, f'混入外部资料或未登记资产：{file.name}')
     try:
         text = file.read_text(encoding='utf-8')
     except UnicodeDecodeError:

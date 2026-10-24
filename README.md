@@ -1,6 +1,6 @@
 # BlackBerry 10 设计语言
 
-**整理作者：酒鬼成员 · 规范版本：1.1.4 · 中文整理版**
+**整理作者：酒鬼成员 · 规范版本：1.2.0 · 中文整理版**
 
 把黑莓的体验原则转成可以在真实项目里使用的设计约束：内容优先、底部高频操作、连续的页面层级、可取消的手势，以及统一的组件和状态。适用于原生 BB10 项目，也可作为 Android、网页及其他平台的适配参考。
 
@@ -12,6 +12,7 @@
 | --- | --- |
 | [设计语言正文](DESIGN_LANGUAGE.md) | 体验原则、信息结构、导航、视觉、交互、状态、设备与资产，共87条规则 |
 | [关键控件标准](COMPONENT_STANDARDS.md) | 底栏、主圆、两端按钮、顶部取消/保存、下拉选择及其完整状态 |
+| [图标目录与使用标准](ICON_LIBRARY.md) | 121枚历史Action图标、34个官方仓库样例源文件，分类、中文释义、许可边界及本机联系表 |
 | [动画与过渡](MOTION.md) | 进入、退出、取消、同步位移、手势跟随与焦点恢复 |
 | [项目接入指南](ADOPTION.md) | 设计师、开发者及其他AI的阅读顺序、配置填写、参数落地、完整提示词与验收步骤 |
 | [设计信息缺口](GAPS.md) | 原文没有给出的参数、历史资料歧义及标定方法 |
@@ -30,7 +31,7 @@
 可直接交给其他AI或协作者：
 
 ```text
-本项目参考 https://github.com/boySang/BlackBerry-10-Design-Language 的设计语言1.1.4，
+本项目参考 https://github.com/boySang/BlackBerry-10-Design-Language 的设计语言1.2.0，
 固定本次采用的完整提交号；如已有授权保存的本地副本，读取 docs/design/blackberry-10/。
 先读 README.md、DESIGN_LANGUAGE.md、COMPONENT_STANDARDS.md、MOTION.md、GAPS.md，
 以及本项目的 PROJECT_PROFILE.json。
@@ -57,6 +58,10 @@ JSON键名、单位和枚举保留技术标识，方便代码读取；说明文�
 
 下拉框可显式采用p.5的`classic-calendar-10.2.1`灰色复合选择行；Tab可采用p.7的`top-accent-neutral`青色顶线与浅色图标。跨版本组合记录为项目决定，触摸按下与常驻选中分别处理；完整约束及数值依据见关键控件标准。
 
+## 图标资料
+
+[图标使用标准](ICON_LIBRARY.md)连接[完整分类表](icons/INDEX.md)、[机器索引](icons/catalog.json)与[联系表HTML](icons/contact-sheet.html)。完整登记2013历史Action包121枚及去重后的34个仓库样例源文件，保留原文件名、实际像素尺寸、字节数、哈希和来源；不把Subway第三方套系或仓库样例冒称系统官方图形。公开部分以元数据和来源引用为主，原图分发范围按来源说明处理。
+
 ## 参考来源
 
 - **主来源：** [BlackBerry 10 UI Guidelines，黑莓官方PDF](https://developer.blackberry.com/devzone/files/design/bb10/UI_Guidelines_BlackBerry_10.pdf)。出版日期2015-03-23，共156页。仓库所有页码指PDF物理页。
@@ -67,7 +72,7 @@ PDF与第三方仓库不一致时，以PDF为准；项目明确选择的复刻�
 
 ## 轻量分发与校验
 
-本仓库**不提交原PDF、整页截图、提取图片、字体、压缩包或演示应用**，通过官方链接、页码、来源哈希和参数保持可追溯。PDF链接可带 `#page=31` 等页码锚点；不支持该锚点的阅读器请手动跳页。
+本仓库**不提交原PDF、整页截图、PDF提取图片、字体、压缩包或演示应用**，通过官方链接、页码、来源哈希和参数保持可追溯。图标目录仅随库保留6枚已核实Apache-2.0许可的Cascades样例PNG及两份原LICENSE；其余原图以来源索引引用。PDF链接可带 `#page=31` 等页码锚点；不支持该锚点的阅读器请手动跳页。
 
 使用Python 3运行：
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "packageVersion": "1.1.4",
+  "packageVersion": "1.2.0",
   "format": "bb10-figure-measurements-and-platform-profile",
   "policy": "原图量测为近似推导，不是原文明示的BB10 px/du；实施值属于项目映射，不是官方测量值。",
   "sourcePdfSha256": "1992691e60573f037fa366880c64094448f668f774fefde4eb7ca8714d0b2364",

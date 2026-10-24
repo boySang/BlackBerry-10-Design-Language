@@ -12,3 +12,11 @@ artifacts/
 *.ttf
 *.otf
 *.woff*
+
+# 仅收录已有明确项目许可且按索引哈希核对的6个原PNG。
+!icons/assets/cascades_samples/appshot/assets/12ppd/images/ic_done.png
+!icons/assets/cascades_samples/appshot/assets/8ppd/images/ic_done.png
+!icons/assets/cascades_samples/appshot/assets/images/ic_done.png
+!icons/assets/cascades_samples/datamanagerusage/assets/images/ic_add.png
+!icons/assets/cascades_samples/datamanagerusage/assets/images/ic_delete.png
+!icons/assets/cascades_samples/datamanagerusage/assets/images/ic_edit.png

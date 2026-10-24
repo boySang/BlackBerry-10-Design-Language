@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-10-24",
+  "packageVersion": "1.2.0",
+  "catalogSha256": "9f8ed0c0ec456468413d6602a116fe5d5347755f65e30792e04f238cb8c4b6a9",
+  "intakeRecordsChecked": 485,
+  "publicCatalogEntries": 155,
+  "sourceCounts": {
+    "bbui_sample": 28,
+    "cascades_samples": 6,
+    "official_action_pack_2013": 121
+  },
+  "bundledOriginalPngs": 6,
+  "metadataOnlyEntries": 149,
+  "localOriginalsMatched": 155,
+  "actionZipChecked": true,
+  "actionZipPngMembers": 121,
+  "actionZipTotalMembers": 122,
+  "xlsSemanticRowsChecked": 121,
+  "officialRepositoryBlobsMatched": 6,
+  "preservedProjectLicenses": 2,
+  "publicHtmlEmbeddedPngs": 6,
+  "inlineJavaScriptSyntax": "pass",
+  "negativeChecks": [
+    "corrupt-zip-rejected",
+    "changed-or-missing-originals-rejected",
+    "changed-license-rejected",
+    "unregistered-png-rejected",
+    "metadata-only-image-in-public-html-rejected",
+    "private-contact-sheet-public-output-rejected"
+  ],
+  "browserChecks": {
+    "defaultEntries": 155,
+    "defaultImages": 6,
+    "localFolderImagesMatched": 155,
+    "selectionCategoryEntries": 8,
+    "icSelectQueryEntries": 5,
+    "cascadesSourceEntries": 6,
+    "all121ActionImagesLoaded": true,
+    "narrowViewportOverflow": false
+  },
+  "limitations": [
+    "未检查所有历史外链持续可用性。",
+    "不声称系统图标全集或所有PNG均可再分发。",
+    "不认证任何目标App或手机适配。"
+  ]
+}

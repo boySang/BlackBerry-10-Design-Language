@@ -1,0 +1,3913 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "1.2.0",
+  "catalogVersion": "2026-10-24",
+  "compiledBy": "酒鬼成员",
+  "scope": "历史官方Action包完整条目，以及已核实的官方仓库样例源文件；不宣称系统图标全集。",
+  "categories": {
+    "action": "动作",
+    "navigation": "导航",
+    "communication": "通信与分享",
+    "file_media": "文件与媒体",
+    "edit_management": "编辑与内容管理",
+    "selection": "选择",
+    "management": "设置与管理",
+    "state": "状态与控制",
+    "unclassified": "用途待核"
+  },
+  "sources": {
+    "official_action_pack_2013": {
+      "label": "历史官方 Action 图标包（2013存档）",
+      "sourceClass": "official-historical-package",
+      "publisher": "BlackBerry",
+      "originUrl": "http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "archiveUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "archiveTimestamp": "20131122015712",
+      "sha256": "63363885c2ede7b3ef6ce77dd21c817978c206add2fe40896863d51d89a8b7f0",
+      "bytes": 273604,
+      "pngCount": 121,
+      "zipEntryCount": 122,
+      "xls": {
+        "filename": "Action_Icons.xls",
+        "bytes": 207360,
+        "sha256": "c65f306913198a7c2827b27d42d901f7f3a6ea8cf2a676e3c808c7f0223f9b4b",
+        "dataRows": 121
+      },
+      "licenseStatus": "unresolved-no-grant-in-package",
+      "distribution": "metadata-only",
+      "scopeNote": "完整收录此历史包121个PNG条目；不等于BB10全部版本、主题或系统图标全集。"
+    },
+    "cascades_samples": {
+      "label": "BlackBerry Cascades 官方仓库样例",
+      "sourceClass": "official-repository-sample",
+      "publisher": "BlackBerry GitHub组织",
+      "repository": "blackberry/Cascades-Samples",
+      "commit": "2429ddebecd56d92b018be98ab66eb7178f05b7c",
+      "url": "https://github.com/blackberry/Cascades-Samples/tree/2429ddebecd56d92b018be98ab66eb7178f05b7c",
+      "licenseStatus": "Apache-2.0-project-license",
+      "distribution": "bundled-unmodified",
+      "scopeNote": "6个样例原文件分别位于带独立Apache-2.0 LICENSE的项目内；保留两份原许可，不推导商标权或系统Action套系身份。",
+      "licenseEvidence": {
+        "appshot": {
+          "license": "Apache-2.0",
+          "sourceUrl": "https://github.com/blackberry/Cascades-Samples/blob/2429ddebecd56d92b018be98ab66eb7178f05b7c/appshot/LICENSE",
+          "path": "licenses/cascades-samples/appshot/LICENSE",
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "gitBlob": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+          "notice": "固定提交的样例目录未见独立NOTICE，保留原LICENSE与来源归属。"
+        },
+        "datamanagerusage": {
+          "license": "Apache-2.0",
+          "sourceUrl": "https://github.com/blackberry/Cascades-Samples/blob/2429ddebecd56d92b018be98ab66eb7178f05b7c/datamanagerusage/LICENSE",
+          "path": "licenses/cascades-samples/datamanagerusage/LICENSE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "gitBlob": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+          "notice": "固定提交的样例目录未见独立NOTICE，保留原LICENSE与来源归属。"
+        }
+      }
+    },
+    "bbui_sample": {
+      "label": "BlackBerry bbUI.js 官方仓库样例",
+      "sourceClass": "official-repository-sample",
+      "publisher": "BlackBerry GitHub组织",
+      "repository": "blackberry/bbUI.js",
+      "commit": "5da817014b2773f48b825ac7f32f9df944a0f1fd",
+      "url": "https://github.com/blackberry/bbUI.js/tree/5da817014b2773f48b825ac7f32f9df944a0f1fd",
+      "licenseUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/LICENSE",
+      "licenseStatus": "mixed-licenses-see-entry",
+      "distribution": "metadata-only",
+      "scopeNote": "样例仓库含第三方许可段落；不把仓库发布方、图片原创者与Apache源码许可混为一谈。",
+      "licenseEvidenceUrls": [
+        "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/README.md#authors",
+        "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/LICENSE"
+      ]
+    }
+  },
+  "counts": {
+    "entries": 155,
+    "sourceCounts": {
+      "bbui_sample": 28,
+      "cascades_samples": 6,
+      "official_action_pack_2013": 121
+    },
+    "categoryCounts": {
+      "unclassified": 28,
+      "file_media": 19,
+      "action": 13,
+      "edit_management": 18,
+      "communication": 23,
+      "management": 13,
+      "navigation": 23,
+      "selection": 8,
+      "state": 10
+    },
+    "uniqueContentHashes": 155,
+    "intakeRecords": 485,
+    "intakeOfficialSourceRecords": 159,
+    "duplicateSampleCopiesRemoved": 4,
+    "bundledOriginalPngs": 6,
+    "metadataOnlyEntries": 149
+  },
+  "excludedReferences": [
+    {
+      "source": "mariuszostrowski/subway",
+      "commit": "98cc590b68185db5746604cdb23831bb313f0c0f",
+      "records": 326,
+      "uniqueContentHashes": 306,
+      "reason": "第三方Subway参考，不列入官方来源目录；20条是完整套系的本地副本。"
+    }
+  ],
+  "entries": [
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon1.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon1.png",
+      "originalFilename": "icon1.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon1.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1479,
+      "sha256": "739d123b07950ef399a293c5e5be77b1e9224505f4d952d6003410e75f96a01a",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon1.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon10.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon10.png",
+      "originalFilename": "icon10.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon10.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2151,
+      "sha256": "438cf8b418f3d0ef5830e745a37e2e06505e5df2e069b6f60f392a6ba555fb69",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon10.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon11.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon11.png",
+      "originalFilename": "icon11.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon11.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1348,
+      "sha256": "235efbbf68a903239ab09950d86fd225fad53a22450c7eb062cbce445505ba49",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon11.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon12.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon12.png",
+      "originalFilename": "icon12.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon12.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2108,
+      "sha256": "2312062c45fce611a1495ee3da047814c128a05b90bb0c481b6abf8e6c39c64d",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon12.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon13.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon13.png",
+      "originalFilename": "icon13.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon13.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2707,
+      "sha256": "c4e32384758bb95dffd633697fc9176f52228241b598e30522a4225796ce641a",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon13.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon14.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon14.png",
+      "originalFilename": "icon14.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon14.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1224,
+      "sha256": "b8fc746f04ff3e040b0eaab583e12f88ba05556b0f8c52c6580133c77e8493e2",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon14.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon15.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon15.png",
+      "originalFilename": "icon15.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon15.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2013,
+      "sha256": "05f9bb17688181c46736b29a78c278d54e069a101ebf8bea35c749837ee2ba6f",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon15.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon16.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon16.png",
+      "originalFilename": "icon16.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon16.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2570,
+      "sha256": "eaa90cbaea3eead2c586b2977cad9bb68d27099084e7ded5e3cec1737af07e7c",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon16.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon17.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon17.png",
+      "originalFilename": "icon17.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon17.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1387,
+      "sha256": "748d169f57420dc74ba1f53e57ea795aa462d50405a3e7d81f0fed73bbc596a2",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon17.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon18.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon18.png",
+      "originalFilename": "icon18.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon18.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1871,
+      "sha256": "e32e946f3b5c846f80b072b57adca92acc9aa1141e1e3c38e5ba9b4bf2bdeb62",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon18.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon19.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon19.png",
+      "originalFilename": "icon19.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon19.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1621,
+      "sha256": "6285d3811f0ffdbe0c67f1bd6c4f2ce3181cf4b9527f3ffad2b87e805ae7a2b8",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon19.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon2.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon2.png",
+      "originalFilename": "icon2.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon2.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1297,
+      "sha256": "9d659bbf4eb459e9d342179f0b8d91234eec8c0ce95f2119b624bd66f4555b6a",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon2.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon20.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon20.png",
+      "originalFilename": "icon20.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon20.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1551,
+      "sha256": "af7b1c67adc54a250929aefed4f91f58b4d5a6c120fa529977214263f1afba0f",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon20.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon21.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon21.png",
+      "originalFilename": "icon21.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon21.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1872,
+      "sha256": "1357d421828395ebc0a7a3386ffb7ed438e97117dbe9f10168556dbbac3d78c0",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon21.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon22.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon22.png",
+      "originalFilename": "icon22.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon22.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2532,
+      "sha256": "38f20972b6acf6db31451d5e1a3f7aab05e7b316ae55ccf51a9fdd7b50a0c180",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon22.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon23.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon23.png",
+      "originalFilename": "icon23.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon23.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2472,
+      "sha256": "1b592fb76a40bfbc9603d4ac5a0f3b903aa5c14a4e26b2d8de7235749023273e",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon23.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon24.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon24.png",
+      "originalFilename": "icon24.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon24.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1429,
+      "sha256": "21fe56252c944f7dcb3688995a1b56ea81cef31124804a6555d7a0ec3a010bb2",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon24.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon25.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon25.png",
+      "originalFilename": "icon25.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon25.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1473,
+      "sha256": "27e4ccaf7cc3d085dc5de8aa37cd0c1ee072d23f32d8c0fe35833fc5af5be7b2",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon25.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon3.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon3.png",
+      "originalFilename": "icon3.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon3.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1673,
+      "sha256": "76f51b9921a5a26abbc25ff866dc06cd524c441a37dbacff361605a03c76aa8d",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon3.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon4.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon4.png",
+      "originalFilename": "icon4.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon4.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2479,
+      "sha256": "82517a793a35b878eabfb02fb776ee3fd4642cd21a0525da9c31bd30b4367a4a",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon4.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon5.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon5.png",
+      "originalFilename": "icon5.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon5.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1469,
+      "sha256": "3664c7d7390b61ab5f62674e0c497ed017f014d5faf5584a5cd6436646e37905",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon5.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon6.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon6.png",
+      "originalFilename": "icon6.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon6.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1298,
+      "sha256": "88c0d5cae26f097fba4460785f49424fb9decaa84fc201a794b67d102dec84eb",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon6.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon7.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon7.png",
+      "originalFilename": "icon7.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon7.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 1359,
+      "sha256": "a0c20cff4d5ebdd18a7d321a6116f95563aacbf0b894580914919555094fd0c7",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon7.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon8.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon8.png",
+      "originalFilename": "icon8.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon8.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2435,
+      "sha256": "d02212ac70169256f40d53ce6384e6535f4e4f480cc20de621d9478d3c0a9521",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon8.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/icons/icon9.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/icons/icon9.png",
+      "originalFilename": "icon9.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 icons/icon9.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        130,
+        130
+      ],
+      "bytes": 2136,
+      "sha256": "bda79a72226842515e9748cf1f53ac541fc63f38df651d5f61a248fa569c41a2",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/icons/icon9.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "CC-BY-SA-3.0-readme-license-appendix-conflict"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/menu_icons/icon1.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/menu_icons/icon1.png",
+      "originalFilename": "icon1.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 menu_icons/icon1.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        65,
+        65
+      ],
+      "bytes": 2116,
+      "sha256": "f61d8f2f0ebee1d6605da00e2e4c967cf5dab39e3a226f16ec2424519535dda7",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/menu_icons/icon1.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "project-Apache-2.0-asset-attribution-not-individually-confirmed"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/menu_icons/icon2.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/menu_icons/icon2.png",
+      "originalFilename": "icon2.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 menu_icons/icon2.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        65,
+        65
+      ],
+      "bytes": 3308,
+      "sha256": "0f297742a8413847f09b7566f12643e8d4f8c06ccaacfd9d4da611e6b79a8fa2",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/menu_icons/icon2.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "project-Apache-2.0-asset-attribution-not-individually-confirmed"
+    },
+    {
+      "id": "bbui_sample:samples/bb10/www/images/menu_icons/icon3.png",
+      "sourceId": "bbui_sample",
+      "sourcePath": "samples/bb10/www/images/menu_icons/icon3.png",
+      "originalFilename": "icon3.png",
+      "category": "unclassified",
+      "semanticSummaryZh": "样例图形 menu_icons/icon3.png（用途待核）",
+      "semanticEvidence": {
+        "type": "repository-path-only-no-semantic-name"
+      },
+      "categoryEvidence": "unresolved",
+      "sizePx": [
+        65,
+        65
+      ],
+      "bytes": 888,
+      "sha256": "c0d7ec736aa1b41f3ae8bc44fd940f58600fef6f0b422de419277ead8e3848a2",
+      "sourceUrl": "https://github.com/blackberry/bbUI.js/blob/5da817014b2773f48b825ac7f32f9df944a0f1fd/samples/bb10/www/images/menu_icons/icon3.png",
+      "distribution": "metadata-only",
+      "note": "编号不提供官方语义；不以形状相近擅自定义系统动作。",
+      "licenseStatus": "project-Apache-2.0-asset-attribution-not-individually-confirmed"
+    },
+    {
+      "id": "cascades_samples:appshot/assets/12ppd/images/ic_done.png",
+      "sourceId": "cascades_samples",
+      "sourcePath": "appshot/assets/12ppd/images/ic_done.png",
+      "originalFilename": "ic_done.png",
+      "category": "file_media",
+      "semanticSummaryZh": "相机图形（样例中名为ic_done）",
+      "semanticEvidence": {
+        "type": "repository-path-and-visual-observation"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        96,
+        96
+      ],
+      "bytes": 4481,
+      "sha256": "e5bfbf36eada54072e626e5070c907265e1464a6a7274dbefa86ea3c5fd98d82",
+      "sourceUrl": "https://github.com/blackberry/Cascades-Samples/blob/2429ddebecd56d92b018be98ab66eb7178f05b7c/appshot/assets/12ppd/images/ic_done.png",
+      "distribution": "bundled-unmodified",
+      "note": "仓库样例，不是系统Action套系；原路径保留尺寸变体。不要因文件名done而当作完成勾。",
+      "licenseStatus": "Apache-2.0-project-license",
+      "assetPath": "assets/cascades_samples/appshot/assets/12ppd/images/ic_done.png",
+      "licensePath": "licenses/cascades-samples/appshot/LICENSE",
+      "gitBlob": "61e9ef7b6a48b4e07b767afe74ee6fd37220100d"
+    },
+    {
+      "id": "cascades_samples:appshot/assets/8ppd/images/ic_done.png",
+      "sourceId": "cascades_samples",
+      "sourcePath": "appshot/assets/8ppd/images/ic_done.png",
+      "originalFilename": "ic_done.png",
+      "category": "file_media",
+      "semanticSummaryZh": "相机图形（样例中名为ic_done）",
+      "semanticEvidence": {
+        "type": "repository-path-and-visual-observation"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        67,
+        67
+      ],
+      "bytes": 1200,
+      "sha256": "b9b4126f0e5c0bd2c4b985b20b534e38b34acf920473a58a41a1946877e52096",
+      "sourceUrl": "https://github.com/blackberry/Cascades-Samples/blob/2429ddebecd56d92b018be98ab66eb7178f05b7c/appshot/assets/8ppd/images/ic_done.png",
+      "distribution": "bundled-unmodified",
+      "note": "仓库样例，不是系统Action套系；原路径保留尺寸变体。不要因文件名done而当作完成勾。",
+      "licenseStatus": "Apache-2.0-project-license",
+      "assetPath": "assets/cascades_samples/appshot/assets/8ppd/images/ic_done.png",
+      "licensePath": "licenses/cascades-samples/appshot/LICENSE",
+      "gitBlob": "43ef5716f9a747bd8ef61cb67f434297228403e7"
+    },
+    {
+      "id": "cascades_samples:appshot/assets/images/ic_done.png",
+      "sourceId": "cascades_samples",
+      "sourcePath": "appshot/assets/images/ic_done.png",
+      "originalFilename": "ic_done.png",
+      "category": "file_media",
+      "semanticSummaryZh": "相机图形（样例中名为ic_done）",
+      "semanticEvidence": {
+        "type": "repository-path-and-visual-observation"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1133,
+      "sha256": "d7adf4c16ced6a6756cfb7cb243e77477aed3d9c3c10ed3d6fe72008c3c32746",
+      "sourceUrl": "https://github.com/blackberry/Cascades-Samples/blob/2429ddebecd56d92b018be98ab66eb7178f05b7c/appshot/assets/images/ic_done.png",
+      "distribution": "bundled-unmodified",
+      "note": "仓库样例，不是系统Action套系；原路径保留尺寸变体。不要因文件名done而当作完成勾。",
+      "licenseStatus": "Apache-2.0-project-license",
+      "assetPath": "assets/cascades_samples/appshot/assets/images/ic_done.png",
+      "licensePath": "licenses/cascades-samples/appshot/LICENSE",
+      "gitBlob": "9ad77c638bdc805c5da8af8106e982ae39c2505c"
+    },
+    {
+      "id": "cascades_samples:datamanagerusage/assets/images/ic_add.png",
+      "sourceId": "cascades_samples",
+      "sourcePath": "datamanagerusage/assets/images/ic_add.png",
+      "originalFilename": "ic_add.png",
+      "category": "action",
+      "semanticSummaryZh": "添加项目",
+      "semanticEvidence": {
+        "type": "repository-path-and-visual-observation"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 474,
+      "sha256": "127c038e7c11b359fee4160d3a376f1a15f4e95047338ad874b733c3e5204464",
+      "sourceUrl": "https://github.com/blackberry/Cascades-Samples/blob/2429ddebecd56d92b018be98ab66eb7178f05b7c/datamanagerusage/assets/images/ic_add.png",
+      "distribution": "bundled-unmodified",
+      "note": "仓库样例，不是系统Action套系；原路径保留尺寸变体。",
+      "licenseStatus": "Apache-2.0-project-license",
+      "assetPath": "assets/cascades_samples/datamanagerusage/assets/images/ic_add.png",
+      "licensePath": "licenses/cascades-samples/datamanagerusage/LICENSE",
+      "gitBlob": "0965ec2d7589b87a2f5eaa15c6e64243fa70fca8"
+    },
+    {
+      "id": "cascades_samples:datamanagerusage/assets/images/ic_delete.png",
+      "sourceId": "cascades_samples",
+      "sourcePath": "datamanagerusage/assets/images/ic_delete.png",
+      "originalFilename": "ic_delete.png",
+      "category": "action",
+      "semanticSummaryZh": "删除选中项目",
+      "semanticEvidence": {
+        "type": "repository-path-and-visual-observation"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 817,
+      "sha256": "ad7901cae8181d7c27b231075b2b09762e770108d5e1060c30f6b82e50c32b49",
+      "sourceUrl": "https://github.com/blackberry/Cascades-Samples/blob/2429ddebecd56d92b018be98ab66eb7178f05b7c/datamanagerusage/assets/images/ic_delete.png",
+      "distribution": "bundled-unmodified",
+      "note": "仓库样例，不是系统Action套系；原路径保留尺寸变体。",
+      "licenseStatus": "Apache-2.0-project-license",
+      "assetPath": "assets/cascades_samples/datamanagerusage/assets/images/ic_delete.png",
+      "licensePath": "licenses/cascades-samples/datamanagerusage/LICENSE",
+      "gitBlob": "6914782e04868bbcf530c0a57f0c48df1989557c"
+    },
+    {
+      "id": "cascades_samples:datamanagerusage/assets/images/ic_edit.png",
+      "sourceId": "cascades_samples",
+      "sourcePath": "datamanagerusage/assets/images/ic_edit.png",
+      "originalFilename": "ic_edit.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "编辑项目",
+      "semanticEvidence": {
+        "type": "repository-path-and-visual-observation"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1055,
+      "sha256": "bb9787d2268b0c75ea6e6f1b63c98f3a557ad4062982ab27d8e46d67f36cb95a",
+      "sourceUrl": "https://github.com/blackberry/Cascades-Samples/blob/2429ddebecd56d92b018be98ab66eb7178f05b7c/datamanagerusage/assets/images/ic_edit.png",
+      "distribution": "bundled-unmodified",
+      "note": "仓库样例，不是系统Action套系；原路径保留尺寸变体。",
+      "licenseStatus": "Apache-2.0-project-license",
+      "assetPath": "assets/cascades_samples/datamanagerusage/assets/images/ic_edit.png",
+      "licensePath": "licenses/cascades-samples/datamanagerusage/LICENSE",
+      "gitBlob": "eea964a890e356e8cda46e90acbd3f77416721ba"
+    },
+    {
+      "id": "official_action_pack_2013:ic_add.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_add.png",
+      "originalFilename": "ic_add.png",
+      "category": "action",
+      "semanticSummaryZh": "添加项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 2,
+        "declaredFilename": "ic_add.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 439,
+      "sha256": "9e9c486ab125aa184cb70da23ec89e9933c34a4ab00d8840aed93cb723c84861",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_add_entry.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_add_entry.png",
+      "originalFilename": "ic_add_entry.png",
+      "category": "action",
+      "semanticSummaryZh": "打开编辑器，新建条目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 3,
+        "declaredFilename": "ic_add_entry.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 634,
+      "sha256": "d246ca0b86ec855077aad1b53d1e336cdb3cf0b74f43526adae813dc8bbe2b1e",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_add_favorite.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_add_favorite.png",
+      "originalFilename": "ic_add_favorite.png",
+      "category": "action",
+      "semanticSummaryZh": "添加为收藏",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 4,
+        "declaredFilename": "ic_add_favorite.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1094,
+      "sha256": "c7cfb52b0c0a275a27517c13ebaf387f48852bdf99d2bc4b5d284f30d18adf89",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_add_folder.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_add_folder.png",
+      "originalFilename": "ic_add_folder.png",
+      "category": "file_media",
+      "semanticSummaryZh": "新建文件夹",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 5,
+        "declaredFilename": "ic_add_folder.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 627,
+      "sha256": "7610f9dba06e7115cd35e33cf65221b94de8b70631541788f06568ae9121fec1",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_add_to_contacts.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_add_to_contacts.png",
+      "originalFilename": "ic_add_to_contacts.png",
+      "category": "communication",
+      "semanticSummaryZh": "将信息添加到联系人",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 6,
+        "declaredFilename": "ic_add_to_contacts.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1369,
+      "sha256": "7ab55ca4b4505e3352c3172c4f6e5ba9fe719e67afd518d12bce0b0cb04353b8",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_advanced.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_advanced.png",
+      "originalFilename": "ic_advanced.png",
+      "category": "management",
+      "semanticSummaryZh": "打开更多设置页",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 7,
+        "declaredFilename": "ic_advanced.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 941,
+      "sha256": "be83a5bf06343dd7ebc585b4057accc179da653f3b1b77339bf810744e72291c",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_advanced_restore.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_advanced_restore.png",
+      "originalFilename": "ic_advanced_restore.png",
+      "category": "management",
+      "semanticSummaryZh": "恢复高级设置默认值",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 8,
+        "declaredFilename": "ic_advanced_restore.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1134,
+      "sha256": "8d9334655cf27f859003107386eeef4a0ddb3687a7969a89d7907001a4c12a03",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_all.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_all.png",
+      "originalFilename": "ic_all.png",
+      "category": "navigation",
+      "semanticSummaryZh": "显示未筛选的全部项目或分类",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 9,
+        "declaredFilename": "ic_all.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 492,
+      "sha256": "c15cc3977f7c8e314461e61d0fee027863ad4a6424a789b0365b0a597eb1d21a",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_attach.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_attach.png",
+      "originalFilename": "ic_attach.png",
+      "category": "file_media",
+      "semanticSummaryZh": "打开文件选择器，添加附件",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 10,
+        "declaredFilename": "ic_attach.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1078,
+      "sha256": "2229fe68c450addeba30889b5cff907c7573c8b74a28c83c239e35cdf7b6c1ca",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_bbm.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_bbm.png",
+      "originalFilename": "ic_bbm.png",
+      "category": "communication",
+      "semanticSummaryZh": "BBM 应用标识",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 11,
+        "declaredFilename": "ic_bbm.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 836,
+      "sha256": "9517b815bccda24f6e052025f48e904102c33e9cb8e92c8cc105f7eedc6d6cc1",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_browse.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_browse.png",
+      "originalFilename": "ic_browse.png",
+      "category": "navigation",
+      "semanticSummaryZh": "在当前页面内查找信息",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 12,
+        "declaredFilename": "ic_browse.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 2212,
+      "sha256": "8f8e06ef6d41fe0591430de6059dad587bdd606ecc560fbc6eb99de3deafe587",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_browser.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_browser.png",
+      "originalFilename": "ic_browser.png",
+      "category": "navigation",
+      "semanticSummaryZh": "启动黑莓浏览器",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 13,
+        "declaredFilename": "ic_browser.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1809,
+      "sha256": "8e76516a8b644f0169770d3db8479f55566bcddf08b3c144851e12e38b0ca9e3",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_buy.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_buy.png",
+      "originalFilename": "ic_buy.png",
+      "category": "action",
+      "semanticSummaryZh": "添加到购物车，准备购买",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 14,
+        "declaredFilename": "ic_buy.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1000,
+      "sha256": "dde88659c05b6487c71713fef27b0af799807627c5396b5d12a33a703b5f5df8",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_camera.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_camera.png",
+      "originalFilename": "ic_camera.png",
+      "category": "file_media",
+      "semanticSummaryZh": "启动相机应用",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 15,
+        "declaredFilename": "ic_camera.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1364,
+      "sha256": "9823183bfe4920391bb3ab13cb52f2f9b393a186dd361280fd08f0918f5f5fb3",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_cancel.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_cancel.png",
+      "originalFilename": "ic_cancel.png",
+      "category": "action",
+      "semanticSummaryZh": "取消操作",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 16,
+        "declaredFilename": "ic_cancel.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1440,
+      "sha256": "3c846bd844cbd34a4dd85240bd3b16dcb37e27cc08bece2435bdece6aa2ff8bc",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_cancel_selection.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_cancel_selection.png",
+      "originalFilename": "ic_cancel_selection.png",
+      "category": "selection",
+      "semanticSummaryZh": "取消文字选择高亮",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 17,
+        "declaredFilename": "ic_cancel_selection.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1752,
+      "sha256": "54e828d8b1e32cc23ca862b3ca0a122f219fd522db3034c2ea7d4992d6d006f8",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_check_spelling.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_check_spelling.png",
+      "originalFilename": "ic_check_spelling.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "开始拼写检查",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 18,
+        "declaredFilename": "ic_check_spelling.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1422,
+      "sha256": "3a0fbb77412d34c2e4ea30ccd155b7de52aeffac8e40a51c103f81c41c11ace6",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_clear.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_clear.png",
+      "originalFilename": "ic_clear.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "清空列表或文本字段",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 19,
+        "declaredFilename": "ic_clear.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 994,
+      "sha256": "44d9c940d3e943f26899406240fb6934886df0ca66262001ea3992c209e46e35",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_clear_list.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_clear_list.png",
+      "originalFilename": "ic_clear_list.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "清空列表",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 20,
+        "declaredFilename": "ic_clear_list.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1170,
+      "sha256": "c34b01e3ac6d3ce3285686e50b38afbd7cb6adf0e3b5325ac5a381fbd7139423",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_code_inspector.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_code_inspector.png",
+      "originalFilename": "ic_code_inspector.png",
+      "category": "management",
+      "semanticSummaryZh": "打开代码检查器",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 21,
+        "declaredFilename": "ic_code_inspector.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1200,
+      "sha256": "8f60d8cf560040f5e96697362864b1a4dc2a46df7ff1b99058874de639f7745a",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_collapse.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_collapse.png",
+      "originalFilename": "ic_collapse.png",
+      "category": "navigation",
+      "semanticSummaryZh": "收起一个区段",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 22,
+        "declaredFilename": "ic_collapse.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 487,
+      "sha256": "d63ba8f5dcc68d7d7e50092c4f3538d1304272ca62a9d00b1c7f2e88abf8baf5",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_compose.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_compose.png",
+      "originalFilename": "ic_compose.png",
+      "category": "communication",
+      "semanticSummaryZh": "打开编辑器，新建消息",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 23,
+        "declaredFilename": "ic_compose.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 927,
+      "sha256": "403c8170f6e5c8ec918d3e46aa2095503c32466531203c85a385fe99db93121b",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_connections.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_connections.png",
+      "originalFilename": "ic_connections.png",
+      "category": "communication",
+      "semanticSummaryZh": "设备无线连接标识",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 24,
+        "declaredFilename": "ic_connections.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1532,
+      "sha256": "6241889efa2ca2f32eada18334ff8ff3e72f5ce4b4d55c8035812316bb72aa23",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_contacts.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_contacts.png",
+      "originalFilename": "ic_contacts.png",
+      "category": "communication",
+      "semanticSummaryZh": "打开联系人应用",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 25,
+        "declaredFilename": "ic_contacts.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1008,
+      "sha256": "1bbbeafe9e5a46539d69cf6fc195a63c6dca3724e32968332fea590fcd3e023a",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_copy.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_copy.png",
+      "originalFilename": "ic_copy.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "复制选中项到剪贴板",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 26,
+        "declaredFilename": "ic_copy.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 737,
+      "sha256": "b27bf14f54b3ddd216809f4ffb3243a92a079dae555837a47844c3f4bf389060",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_copy_link.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_copy_link.png",
+      "originalFilename": "ic_copy_link.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "复制选中链接的地址",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 27,
+        "declaredFilename": "ic_copy_link.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 940,
+      "sha256": "35a4593c30187f55c599119779a2609d6b53655d1759e0b23baafb2e130e3ba0",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_copy_link_image.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_copy_link_image.png",
+      "originalFilename": "ic_copy_link_image.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "复制选中图片的地址",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 28,
+        "declaredFilename": "ic_copy_link_image.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1370,
+      "sha256": "b10a594a123109724aca2d55d46d4619aa56cae182042f79ecffc1773220a9b6",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_copy_password.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_copy_password.png",
+      "originalFilename": "ic_copy_password.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "复制字段中选中的密码",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 29,
+        "declaredFilename": "ic_copy_password.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 781,
+      "sha256": "4577c21c5c9af2f52d673aa84e1ac3fd8e03b880c96d5d7ea8134a77abd3c0b6",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_cut.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_cut.png",
+      "originalFilename": "ic_cut.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "剪切选中项目或文字",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 30,
+        "declaredFilename": "ic_cut.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1147,
+      "sha256": "19070e90b584b317e7c863dff904d993ea964edbf8ed5fd66c1177b2777b8069",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_decrease.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_decrease.png",
+      "originalFilename": "ic_decrease.png",
+      "category": "management",
+      "semanticSummaryZh": "缩小字体",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 31,
+        "declaredFilename": "ic_decrease.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 918,
+      "sha256": "8a68b1c92300c0aa606484ff43104e124596876d2f1ad792beb49ca7e3d96d73",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_delete.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_delete.png",
+      "originalFilename": "ic_delete.png",
+      "category": "action",
+      "semanticSummaryZh": "删除选中项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 32,
+        "declaredFilename": "ic_delete.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 896,
+      "sha256": "5616c62c191cbf88400da5029dd290a9baf50d672c181553f16bfd7aff413df5",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_delete_prior.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_delete_prior.png",
+      "originalFilename": "ic_delete_prior.png",
+      "category": "action",
+      "semanticSummaryZh": "删除选中项之前的全部项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 33,
+        "declaredFilename": "ic_delete_prior.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1165,
+      "sha256": "99df24e68fe9bdfbe8a68bcff1d01e8490a55e32c1d61d9922cc1f821ee7c054",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_deselect.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_deselect.png",
+      "originalFilename": "ic_deselect.png",
+      "category": "selection",
+      "semanticSummaryZh": "取消选择当前项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 34,
+        "declaredFilename": "ic_deselect.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1447,
+      "sha256": "e6b1c0cff27336f0e1bf5f7503468c1d3a4f4e30db747b00be6cbe58174f3562",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_deselect_all.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_deselect_all.png",
+      "originalFilename": "ic_deselect_all.png",
+      "category": "selection",
+      "semanticSummaryZh": "取消全部多选项",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 35,
+        "declaredFilename": "ic_deselect_all.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 523,
+      "sha256": "b53464dbedd97b81d66a74b05a9804e6ed145b38efac74a04056e9ad4cf20db1",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_diagnostics.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_diagnostics.png",
+      "originalFilename": "ic_diagnostics.png",
+      "category": "management",
+      "semanticSummaryZh": "打开诊断界面",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 36,
+        "declaredFilename": "ic_diagnostics.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 848,
+      "sha256": "b81711c4ea0c4835a04335728b0db3ec347c088af8005c26068a9bfccdd45a08",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_disable.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_disable.png",
+      "originalFilename": "ic_disable.png",
+      "category": "state",
+      "semanticSummaryZh": "禁用功能",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 37,
+        "declaredFilename": "ic_disable.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 971,
+      "sha256": "b52a6a272ee30adc236daff199bf94c7235c1b79099cac748d89addad6c17d81",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_doc.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_doc.png",
+      "originalFilename": "ic_doctype_doc.png",
+      "category": "file_media",
+      "semanticSummaryZh": "DOC 文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 38,
+        "declaredFilename": "ic_doctype_doc.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1050,
+      "sha256": "554e68bfc29d6be0ed3aa0a64ca7ff1ed162f567ce68bdaa26fc31265986a0e2",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_generic.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_generic.png",
+      "originalFilename": "ic_doctype_generic.png",
+      "category": "file_media",
+      "semanticSummaryZh": "文本文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 39,
+        "declaredFilename": "ic_doctype_generic.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 575,
+      "sha256": "412cb20a7181d5ec868deb7dfb20ebdf85a5bd99622b45ca1b5b4a7ea343bca0",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_music.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_music.png",
+      "originalFilename": "ic_doctype_music.png",
+      "category": "file_media",
+      "semanticSummaryZh": "音频文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 40,
+        "declaredFilename": "ic_doctype_music.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 860,
+      "sha256": "787f6907dbe762f5f50a5ae32199d2697d0e801411a8394b74a16f34ed633ced",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_pdf.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_pdf.png",
+      "originalFilename": "ic_doctype_pdf.png",
+      "category": "file_media",
+      "semanticSummaryZh": "PDF 文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 41,
+        "declaredFilename": "ic_doctype_pdf.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 948,
+      "sha256": "d49a77e5fd567fa0794ca09ee665ce4cecc4128213828160962911e1f4dbdaf4",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_picture.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_picture.png",
+      "originalFilename": "ic_doctype_picture.png",
+      "category": "file_media",
+      "semanticSummaryZh": "图片文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 42,
+        "declaredFilename": "ic_doctype_picture.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 950,
+      "sha256": "916ca5219e54baaa498a5ae0b471de4258568c2c5ad2e6e2dc093da96b1a077c",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_ppt.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_ppt.png",
+      "originalFilename": "ic_doctype_ppt.png",
+      "category": "file_media",
+      "semanticSummaryZh": "PPT 文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 43,
+        "declaredFilename": "ic_doctype_ppt.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 838,
+      "sha256": "4aaf2eb39fd8d41ab4a7cc625f99fb7906da76a51dc256435c7810e608f11dcc",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_video.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_video.png",
+      "originalFilename": "ic_doctype_video.png",
+      "category": "file_media",
+      "semanticSummaryZh": "视频文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 44,
+        "declaredFilename": "ic_doctype_video.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 730,
+      "sha256": "e411b23b20b25aa71160d09cb95d7f4f0f5c50e9a079c0961c634d76631a6f3b",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_web.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_web.png",
+      "originalFilename": "ic_doctype_web.png",
+      "category": "file_media",
+      "semanticSummaryZh": "网页文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 45,
+        "declaredFilename": "ic_doctype_web.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1451,
+      "sha256": "d93001da433af5ededef9bf32f56104621a2422c64053d1d6cb17842afb7a2af",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_xls.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_xls.png",
+      "originalFilename": "ic_doctype_xls.png",
+      "category": "file_media",
+      "semanticSummaryZh": "XLS 文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 46,
+        "declaredFilename": "ic_doctype_xls.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1128,
+      "sha256": "02f1f6485923b862a1a3439b81960e573274a87e239bb4170d9d7717d26b6f63",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_doctype_zip.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_doctype_zip.png",
+      "originalFilename": "ic_doctype_zip.png",
+      "category": "file_media",
+      "semanticSummaryZh": "压缩归档文件类型",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 47,
+        "declaredFilename": "ic_doctype_zip.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        80
+      ],
+      "bytes": 869,
+      "sha256": "44f75dbffe67f23becdf0b1c98b6385302b222e14f0d0bf043de99b810c05865",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_done.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_done.png",
+      "originalFilename": "ic_done.png",
+      "category": "state",
+      "semanticSummaryZh": "保存当前状态",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 48,
+        "declaredFilename": "ic_done.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 943,
+      "sha256": "578bb6a08424a865e07ffca01d08587dfca2156ef5886ff9543854ab7f9da51a",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_download.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_download.png",
+      "originalFilename": "ic_download.png",
+      "category": "file_media",
+      "semanticSummaryZh": "下载选中项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 49,
+        "declaredFilename": "ic_download.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1174,
+      "sha256": "36f47113cd820c21f8b4aa8c180887bf10be80c47651430f2987b53f2123506f",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_edit.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_edit.png",
+      "originalFilename": "ic_edit.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "编辑项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 50,
+        "declaredFilename": "ic_edit.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 931,
+      "sha256": "f4b96905ec570258769f4b02b113f4481f489cbc813eda780e22844c8af955c5",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_edit_favorite.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_edit_favorite.png",
+      "originalFilename": "ic_edit_favorite.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "编辑收藏项",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 51,
+        "declaredFilename": "ic_edit_favorite.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1283,
+      "sha256": "6ee14765801436129d281406802001f301367242951528ab1b40d1ad9032edfa",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_edit_list.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_edit_list.png",
+      "originalFilename": "ic_edit_list.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "编辑列表",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 52,
+        "declaredFilename": "ic_edit_list.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 949,
+      "sha256": "c36519cd93fa453a620230f1a6e2fbd144d6b6fc2f0240084507bb391143bb36",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_edit_profile.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_edit_profile.png",
+      "originalFilename": "ic_edit_profile.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "编辑用户资料",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 53,
+        "declaredFilename": "ic_edit_profile.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1841,
+      "sha256": "46616f5440f7b56bd11d0bfbd244a8e57f7e7324a13d74d4813f3383607188f8",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_email.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_email.png",
+      "originalFilename": "ic_email.png",
+      "category": "communication",
+      "semanticSummaryZh": "电子邮件消息标识",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 54,
+        "declaredFilename": "ic_email.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 952,
+      "sha256": "485da9b4d9d7bd733517598eca20bd1f54838d621f42e647a4c92fce8281c4b7",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_enable.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_enable.png",
+      "originalFilename": "ic_enable.png",
+      "category": "state",
+      "semanticSummaryZh": "启用功能",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 55,
+        "declaredFilename": "ic_enable.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 961,
+      "sha256": "122e2f3a96695daa519b8fb3e5cc69a0c116df30ce4a38b94e1e2a34f7723904",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_entry.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_entry.png",
+      "originalFilename": "ic_entry.png",
+      "category": "state",
+      "semanticSummaryZh": "已保存条目标识",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 56,
+        "declaredFilename": "ic_entry.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 431,
+      "sha256": "8893e3ea2fcc3c45fc4fc876c211f9a43624d2f22069684c21512b7dbf48b5f4",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_expand.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_expand.png",
+      "originalFilename": "ic_expand.png",
+      "category": "navigation",
+      "semanticSummaryZh": "展开一个区段",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 57,
+        "declaredFilename": "ic_expand.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 540,
+      "sha256": "a345e017c2b4867980dd3e3c074ff9236c7017b9ad7f33df4689c8b661bf310d",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_favorite.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_favorite.png",
+      "originalFilename": "ic_favorite.png",
+      "category": "state",
+      "semanticSummaryZh": "收藏项目标识",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 58,
+        "declaredFilename": "ic_favorite.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1000,
+      "sha256": "47b36f22dcdbe832c801233134d103350380cac1a8ec4177c7703dc77edc7fc4",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_feedback.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_feedback.png",
+      "originalFilename": "ic_feedback.png",
+      "category": "communication",
+      "semanticSummaryZh": "打开用户反馈功能",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 59,
+        "declaredFilename": "ic_feedback.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 2930,
+      "sha256": "8729b67c1a7cb3da4d2cff2856545d8c01d3e1742a14148139004d49b5d259a7",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_forward.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_forward.png",
+      "originalFilename": "ic_forward.png",
+      "category": "communication",
+      "semanticSummaryZh": "转发消息",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 60,
+        "declaredFilename": "ic_forward.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 747,
+      "sha256": "605525160b221c1a88706138f9f237d7c3a644c0bfebb099208fc15e0170f988",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_forward_as_bbm.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_forward_as_bbm.png",
+      "originalFilename": "ic_forward_as_bbm.png",
+      "category": "communication",
+      "semanticSummaryZh": "作为 BBM 转发选中项",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 61,
+        "declaredFilename": "ic_forward_as_bbm.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1131,
+      "sha256": "e2350d62f319bf6c475b1dd0a8433b64c3aebe9f0a617b7bcba58a2dc0e79997",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_forward_as_email.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_forward_as_email.png",
+      "originalFilename": "ic_forward_as_email.png",
+      "category": "communication",
+      "semanticSummaryZh": "作为邮件转发选中项",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 62,
+        "declaredFilename": "ic_forward_as_email.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1145,
+      "sha256": "9873f3de587c390c9cbd4588638f9df3501398811c4ec5cea91a567a73da0a8e",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_forward_as_text.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_forward_as_text.png",
+      "originalFilename": "ic_forward_as_text.png",
+      "category": "communication",
+      "semanticSummaryZh": "作为短信转发选中项",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 63,
+        "declaredFilename": "ic_forward_as_text.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 793,
+      "sha256": "9d59dac5ed1471acd461441c611bf56b0e36a1304772f6d7818d7fe8412cab6f",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_help.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_help.png",
+      "originalFilename": "ic_help.png",
+      "category": "navigation",
+      "semanticSummaryZh": "打开帮助主题",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 64,
+        "declaredFilename": "ic_help.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1685,
+      "sha256": "0794ccbe5beea5296d97620747ae55e297c910ee660df22945eb0775fb8245d0",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_history.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_history.png",
+      "originalFilename": "ic_history.png",
+      "category": "navigation",
+      "semanticSummaryZh": "打开黑莓浏览器历史",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 65,
+        "declaredFilename": "ic_history.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1375,
+      "sha256": "3fbd91ffeebecca77b7d70ea7223fbb5e52a89f270af719ee3e2572145458ef5",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_home.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_home.png",
+      "originalFilename": "ic_home.png",
+      "category": "navigation",
+      "semanticSummaryZh": "打开黑莓浏览器主页",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 66,
+        "declaredFilename": "ic_home.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 949,
+      "sha256": "5605304aa876ee9955ae020bbd90c11225d07e14f31a249efd5974433e59085e",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_increase.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_increase.png",
+      "originalFilename": "ic_increase.png",
+      "category": "management",
+      "semanticSummaryZh": "放大字体",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 67,
+        "declaredFilename": "ic_increase.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1107,
+      "sha256": "21c0cfa18a5d1a76c1c59264f9eab9ad79d9f42cffdd77cea56e75275ed8197e",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_info.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_info.png",
+      "originalFilename": "ic_info.png",
+      "category": "navigation",
+      "semanticSummaryZh": "显示项目的补充信息",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 68,
+        "declaredFilename": "ic_info.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1605,
+      "sha256": "dd243277601a4c6083542dbb8a49b11d24483b5ba76c78848a01884cbb440a54",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_location.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_location.png",
+      "originalFilename": "ic_location.png",
+      "category": "navigation",
+      "semanticSummaryZh": "基于位置的服务标识",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 69,
+        "declaredFilename": "ic_location.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1199,
+      "sha256": "9c4baa71a38d882ef66949ad12bdbe3a787d3c742e5e20cb6d35c040dd8c169b",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_lock.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_lock.png",
+      "originalFilename": "ic_lock.png",
+      "category": "state",
+      "semanticSummaryZh": "锁定、安全或需认证的项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 70,
+        "declaredFilename": "ic_lock.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 759,
+      "sha256": "f88db5e4174000f6e7c98133f8868bc1c2db30a8f7e32437b1661e2d4cf3e628",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_map.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_map.png",
+      "originalFilename": "ic_map.png",
+      "category": "navigation",
+      "semanticSummaryZh": "在黑莓地图中显示地址位置",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 71,
+        "declaredFilename": "ic_map.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1966,
+      "sha256": "893e393d46267280431ac2bce956795858e0f011a9f9972cbda0ac6243d49072",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_microphone.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_microphone.png",
+      "originalFilename": "ic_microphone.png",
+      "category": "communication",
+      "semanticSummaryZh": "启动录音或取消麦克风静音",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 72,
+        "declaredFilename": "ic_microphone.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1040,
+      "sha256": "6adc60a5c66d77c765955fd7e3cb2e47add9b410b884c865de4093917a27b7c3",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_microphone_mute.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_microphone_mute.png",
+      "originalFilename": "ic_microphone_mute.png",
+      "category": "communication",
+      "semanticSummaryZh": "麦克风静音",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 73,
+        "declaredFilename": "ic_microphone_mute.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1340,
+      "sha256": "d09a22f88f55a422f89e9f8b72d9232f2fd151c671341435b2abbb93a5ac7371",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_move.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_move.png",
+      "originalFilename": "ic_move.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "移动项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 74,
+        "declaredFilename": "ic_move.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1075,
+      "sha256": "3ec70573aa39cecac00ad79404286ceaec0894387fd6fb3805716096949b1656",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_nav_to.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_nav_to.png",
+      "originalFilename": "ic_nav_to.png",
+      "category": "navigation",
+      "semanticSummaryZh": "显示地址的地图路线",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 75,
+        "declaredFilename": "ic_nav_to.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1429,
+      "sha256": "a22a219e04a46b38a053717271ec8f5173348b39646871098025f01ba6c33b0a",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_next.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_next.png",
+      "originalFilename": "ic_next.png",
+      "category": "navigation",
+      "semanticSummaryZh": "进入下一项或下一页",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 76,
+        "declaredFilename": "ic_next.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 930,
+      "sha256": "326fc684694d99e1d39e0ad678e6dfe2114dda49caa85c5434156d8716e5b61e",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_notes.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_notes.png",
+      "originalFilename": "ic_notes.png",
+      "category": "file_media",
+      "semanticSummaryZh": "打开笔记",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 77,
+        "declaredFilename": "ic_notes.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1576,
+      "sha256": "4c918d8ec7adb845c8cac92ae2c02b9acafcbe104d582979561b54df2594e7cd",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_notification.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_notification.png",
+      "originalFilename": "ic_notification.png",
+      "category": "communication",
+      "semanticSummaryZh": "显示黑莓 Hub 通知",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 78,
+        "declaredFilename": "ic_notification.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 898,
+      "sha256": "a291151e13fb0f87968f637971c21aba1ed80b677902e59ccf619be59c6bd879",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_open.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_open.png",
+      "originalFilename": "ic_open.png",
+      "category": "action",
+      "semanticSummaryZh": "打开选中项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 79,
+        "declaredFilename": "ic_open.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 669,
+      "sha256": "2c4ced469b4d997ec41472356dc66af40b241b8f49c47506bb6bb41ee2dc221c",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_open_link.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_open_link.png",
+      "originalFilename": "ic_open_link.png",
+      "category": "navigation",
+      "semanticSummaryZh": "在黑莓浏览器中打开链接",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 80,
+        "declaredFilename": "ic_open_link.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 722,
+      "sha256": "214b68650eef4353acee3438bae45b2c197c38c3b7eb8230ce51030b7462b784",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_overflow_action.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_overflow_action.png",
+      "originalFilename": "ic_overflow_action.png",
+      "category": "action",
+      "semanticSummaryZh": "打开更多操作菜单",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 81,
+        "declaredFilename": "ic_overflow_action.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 509,
+      "sha256": "d0ea199fa8b46dd120a08eb76fd70065519c8f32612f24be95c2157f9c70a36f",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_overflow_tab.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_overflow_tab.png",
+      "originalFilename": "ic_overflow_tab.png",
+      "category": "navigation",
+      "semanticSummaryZh": "打开包含更多栏目项的 Tab 菜单",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 82,
+        "declaredFilename": "ic_overflow_tab.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 506,
+      "sha256": "5acaf75a996f4ea168575ef10d3f3417a03057e29f4af6bbcd7b47dd7aefb37c",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_paste.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_paste.png",
+      "originalFilename": "ic_paste.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "将剪贴板内容粘贴到指定位置",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 83,
+        "declaredFilename": "ic_paste.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 769,
+      "sha256": "40f8c7fe9f93d61037dc1626297021d2a8db42243eb6f99e1ef6b290e473e04c",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_pause.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_pause.png",
+      "originalFilename": "ic_pause.png",
+      "category": "state",
+      "semanticSummaryZh": "暂停正在播放的媒体",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 84,
+        "declaredFilename": "ic_pause.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 449,
+      "sha256": "268b786ab17a0a5e2fe99ec450c3b22b0e47de99c9cae10bc430b0aa731253f5",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_phone.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_phone.png",
+      "originalFilename": "ic_phone.png",
+      "category": "communication",
+      "semanticSummaryZh": "启动电话应用",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 85,
+        "declaredFilename": "ic-phone.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1064,
+      "sha256": "613194bd7711f32db4c74cc95d5f70da5176eb00a133e92bf27336bb309f7023",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。XLS写作ic-phone.png；实际包成员为ic_phone.png，不改原文件名。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_play.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_play.png",
+      "originalFilename": "ic_play.png",
+      "category": "state",
+      "semanticSummaryZh": "播放选中媒体",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 86,
+        "declaredFilename": "ic_play.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 837,
+      "sha256": "d500a8c30714a6243355a86b5f627a226faa6be71b58f389b1267ae1bd785994",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_previous.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_previous.png",
+      "originalFilename": "ic_previous.png",
+      "category": "navigation",
+      "semanticSummaryZh": "进入上一项或上一页",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 87,
+        "declaredFilename": "ic_previous.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 924,
+      "sha256": "0821b4981269c69512bd4a89511967ae2a94b658ac82e963eb589c91313e0456",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_properties.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_properties.png",
+      "originalFilename": "ic_properties.png",
+      "category": "management",
+      "semanticSummaryZh": "打开当前对象的属性页",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 88,
+        "declaredFilename": "ic_properties.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 487,
+      "sha256": "83069a0340220404310faf30c60c34d2c3e4c2711f08a2a54f9705e11011443c",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_reload.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_reload.png",
+      "originalFilename": "ic_reload.png",
+      "category": "state",
+      "semanticSummaryZh": "重新加载或刷新页面、字段数据",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 89,
+        "declaredFilename": "ic_reload.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1239,
+      "sha256": "f2a274c6bf098e22413f3875563b777eeb717c23a197fe392143d2046327f5dc",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_rename.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_rename.png",
+      "originalFilename": "ic_rename.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "修改项目名称",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 90,
+        "declaredFilename": "ic_rename.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1439,
+      "sha256": "fe949693be23de1b7137142e85065d4a1af99264f4f35061eb41feca5942502e",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_reply.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_reply.png",
+      "originalFilename": "ic_reply.png",
+      "category": "communication",
+      "semanticSummaryZh": "回复消息",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 91,
+        "declaredFilename": "ic_reply.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 726,
+      "sha256": "0e940a0c897b05db83e03ee94f6c2e24620fc37cfe097a0425ca254dbee434b3",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_reply_all.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_reply_all.png",
+      "originalFilename": "ic_reply_all.png",
+      "category": "communication",
+      "semanticSummaryZh": "回复全部收件人",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 92,
+        "declaredFilename": "ic_reply_all.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        82
+      ],
+      "bytes": 878,
+      "sha256": "8e42220ef0b8e89db55ee8d2d4e09f5e78330fdab2ca56c5637c710be7b8a081",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_rotate.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_rotate.png",
+      "originalFilename": "ic_rotate.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "旋转项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 93,
+        "declaredFilename": "ic_rotate.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1269,
+      "sha256": "9c98cccd8accdd1336d68040d8ecb1ded2321ed2f6911c9849a0d3eb0881196a",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_save.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_save.png",
+      "originalFilename": "ic_save.png",
+      "category": "action",
+      "semanticSummaryZh": "将项目保存到设备",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 94,
+        "declaredFilename": "ic_save.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 871,
+      "sha256": "19373aa918a2c14d0b6a64e84929e086bcef9379e0ae26ab90655256ee87bef0",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_save_as.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_save_as.png",
+      "originalFilename": "ic_save_as.png",
+      "category": "action",
+      "semanticSummaryZh": "用新名称保存项目副本",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 95,
+        "declaredFilename": "ic_save_as.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1051,
+      "sha256": "84b68d354d8e56395ec17f499450ee7ab22e0843cd95a5678fe28dd0ecf76db0",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_scan_barcode.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_scan_barcode.png",
+      "originalFilename": "ic_scan_barcode.png",
+      "category": "communication",
+      "semanticSummaryZh": "启动条码扫描或显示可扫描条码",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 96,
+        "declaredFilename": "ic_scan_barcode.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 836,
+      "sha256": "13720c3a7f2c68d1b7b130e48512f4c1bcf9154ca48b95d91a3ee1c5521dddeb",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_search.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_search.png",
+      "originalFilename": "ic_search.png",
+      "category": "navigation",
+      "semanticSummaryZh": "打开搜索字段",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 97,
+        "declaredFilename": "ic_search.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1425,
+      "sha256": "a5cf8ce16f4891b8b74e387467668153bba5b42d87afe5824c6f283af7920ea7",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_select.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_select.png",
+      "originalFilename": "ic_select.png",
+      "category": "selection",
+      "semanticSummaryZh": "选择当前项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 98,
+        "declaredFilename": "ic_select.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 797,
+      "sha256": "d51f3ff70997eb6f1ebb8e4449beae4b2dae21d2528cf1ee1ec8ae0d61105923",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_select_all.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_select_all.png",
+      "originalFilename": "ic_select_all.png",
+      "category": "selection",
+      "semanticSummaryZh": "选择组内全部项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 99,
+        "declaredFilename": "ic_select_all.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 916,
+      "sha256": "4bdeca19051ee33d4e57b0936462dec186ef3a8bb6ac43fe52e5bbcb11a88ec1",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_select_more.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_select_more.png",
+      "originalFilename": "ic_select_more.png",
+      "category": "selection",
+      "semanticSummaryZh": "允许选择多个项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 100,
+        "declaredFilename": "ic_select_more.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 804,
+      "sha256": "b99275536a47246b3507ebccd0fdbaa7c73c86abe32ab7d193d3def4d4024a6f",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_select_text.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_select_text.png",
+      "originalFilename": "ic_select_text.png",
+      "category": "selection",
+      "semanticSummaryZh": "选择部分文字",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 101,
+        "declaredFilename": "ic_select_text.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1210,
+      "sha256": "c4a9f4ab70f3cd7a04dfb174689ffe239dbedf033d41c9696c46f23ac9af5e59",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_select_text_all.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_select_text_all.png",
+      "originalFilename": "ic_select_text_all.png",
+      "category": "selection",
+      "semanticSummaryZh": "选择屏幕上全部文字",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 102,
+        "declaredFilename": "ic_select_text_all.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 487,
+      "sha256": "cc167e13ef8a2c84cdfa4944d6af5f22a0234b4faa44648c7d7e42474e997106",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_set_as_default.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_set_as_default.png",
+      "originalFilename": "ic_set_as_default.png",
+      "category": "management",
+      "semanticSummaryZh": "将选中项设为默认",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 103,
+        "declaredFilename": "ic_set_as_default.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 759,
+      "sha256": "168dd03963640fdfdc47d54e6de4c3cf36b20172db1a5a69180242068a519642",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_settings.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_settings.png",
+      "originalFilename": "ic_settings.png",
+      "category": "management",
+      "semanticSummaryZh": "打开设置列表或面板",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 104,
+        "declaredFilename": "ic_settings.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1375,
+      "sha256": "05c97087b4223512bb0ebf380ee9fcff9b694ec9d27ed5b2dab096ac3c59ddc1",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_share.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_share.png",
+      "originalFilename": "ic_share.png",
+      "category": "communication",
+      "semanticSummaryZh": "打开分享功能",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 105,
+        "declaredFilename": "ic_share.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1217,
+      "sha256": "dc9db2560a55494f00d165bfc685457618a1f435c10b3c0494cd6bc885c26ca7",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_show_dialpad.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_show_dialpad.png",
+      "originalFilename": "ic_show_dialpad.png",
+      "category": "communication",
+      "semanticSummaryZh": "打开数字拨号键盘",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 106,
+        "declaredFilename": "ic_show_dialpad.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 736,
+      "sha256": "d458583aef85e0d6b50eabdcafd8a204fbd13cad9ae5284fcc184d4b00a44104",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_show_vkb.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_show_vkb.png",
+      "originalFilename": "ic_show_vkb.png",
+      "category": "edit_management",
+      "semanticSummaryZh": "打开屏幕键盘",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 107,
+        "declaredFilename": "ic_show_vkb.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 616,
+      "sha256": "35cbc67a4b3bf17008dcd2ff6062cb84d16f0a2a615949e526fd238345fbe35b",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_sort.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_sort.png",
+      "originalFilename": "ic_sort.png",
+      "category": "management",
+      "semanticSummaryZh": "对项目排序",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 108,
+        "declaredFilename": "ic_sort.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 803,
+      "sha256": "7431ea54fa65859c763fc78f126da4bb3693e586e95fd6bf9d443829d0f4af5d",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_sort_filter.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_sort_filter.png",
+      "originalFilename": "ic_sort_filter.png",
+      "category": "management",
+      "semanticSummaryZh": "筛选项目",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 109,
+        "declaredFilename": "ic_sort_filter.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 787,
+      "sha256": "6d9952d0c59691fa9fb093860293335d9a9dec7746ba333c4739111307c3519a",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_speaker.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_speaker.png",
+      "originalFilename": "ic_speaker.png",
+      "category": "communication",
+      "semanticSummaryZh": "取消音量静音",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 110,
+        "declaredFilename": "ic_speaker.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1240,
+      "sha256": "af987c5aa2ea2d0768152642894f0880d0e04126bcc857e93cb6e69904a27b9e",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_speaker_mute.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_speaker_mute.png",
+      "originalFilename": "ic_speaker_mute.png",
+      "category": "communication",
+      "semanticSummaryZh": "音量静音",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 111,
+        "declaredFilename": "ic_speaker_mute.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1057,
+      "sha256": "e696ca07171ce86c81974dc926e2e427066d8cd07db8ce69e805b5f69b5bc27e",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_stop.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_stop.png",
+      "originalFilename": "ic_stop.png",
+      "category": "state",
+      "semanticSummaryZh": "停止当前媒体播放",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 112,
+        "declaredFilename": "ic_stop.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 344,
+      "sha256": "74872cd3ebd016cffc5ea8931d5eeb81c388f74bb14776d1ae7b206b364867b2",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_textmessage.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_textmessage.png",
+      "originalFilename": "ic_textmessage.png",
+      "category": "communication",
+      "semanticSummaryZh": "短信应用标识",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 113,
+        "declaredFilename": "ic_textmessage.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 477,
+      "sha256": "e49d99951a8f541bb3ebcca69ac733fe244f54e5273498a102803ca98013f7e2",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_to_bottom.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_to_bottom.png",
+      "originalFilename": "ic_to_bottom.png",
+      "category": "navigation",
+      "semanticSummaryZh": "显示列表底部",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 114,
+        "declaredFilename": "ic_to_bottom.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 959,
+      "sha256": "b85152b907a4af6ece4c4e21b79fd0a3ab8c5bb641c0c675a04875f7982df430",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_to_top.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_to_top.png",
+      "originalFilename": "ic_to_top.png",
+      "category": "navigation",
+      "semanticSummaryZh": "显示列表顶部",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 115,
+        "declaredFilename": "ic_to_top.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 908,
+      "sha256": "355900cb13406970c991881a433e17f9de2b994a188a2fd772d97935abc99002",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_view_details.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_view_details.png",
+      "originalFilename": "ic_view_details.png",
+      "category": "navigation",
+      "semanticSummaryZh": "显示项目详情",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 116,
+        "declaredFilename": "ic_view_details.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 315,
+      "sha256": "234a6551a703e964d6aa6e0242cbefd619202f843e07e779772a70ddf999c412",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_view_grid.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_view_grid.png",
+      "originalFilename": "ic_view_grid.png",
+      "category": "navigation",
+      "semanticSummaryZh": "将列表内容切换为网格",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 117,
+        "declaredFilename": "ic_view_grid.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 401,
+      "sha256": "4b626be11e9501e1ea70a27c4bdc6e37b0a88af2b19ec85ee0f6d56027672979",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_view_image.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_view_image.png",
+      "originalFilename": "ic_view_image.png",
+      "category": "file_media",
+      "semanticSummaryZh": "打开图片",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 118,
+        "declaredFilename": "ic_view_image.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1190,
+      "sha256": "80ead24d387674c63181fc495ffb86168c516c8fb1ffd5a06c5bd3b0a4bd9593",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_view_list.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_view_list.png",
+      "originalFilename": "ic_view_list.png",
+      "category": "navigation",
+      "semanticSummaryZh": "将网格内容切换为列表",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 119,
+        "declaredFilename": "ic_view_list.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 3266,
+      "sha256": "f27f965ea4c88a3bbd06a8dd52f5c76f6b06de7f9e9935fe3a40502cddf588cf",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_view_post.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_view_post.png",
+      "originalFilename": "ic_view_post.png",
+      "category": "navigation",
+      "semanticSummaryZh": "打开一篇帖子",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 120,
+        "declaredFilename": "ic_view_post.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 569,
+      "sha256": "8c78af56f1a28f74c8254c0b8aec51b92099d51e280c27265f7a2fc056780b79",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_zoom_in.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_zoom_in.png",
+      "originalFilename": "ic_zoom_in.png",
+      "category": "management",
+      "semanticSummaryZh": "放大视图",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 121,
+        "declaredFilename": "ic_zoom_in.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1507,
+      "sha256": "a79d61eb056df945d09ad6378029eb13c1f8e5bebe8633935fbb4fe7937689d6",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    },
+    {
+      "id": "official_action_pack_2013:ic_zoom_out.png",
+      "sourceId": "official_action_pack_2013",
+      "sourcePath": "ic_zoom_out.png",
+      "originalFilename": "ic_zoom_out.png",
+      "category": "management",
+      "semanticSummaryZh": "缩小视图",
+      "semanticEvidence": {
+        "type": "source-xls-description-summary",
+        "sheet": "Sheet1",
+        "row": 122,
+        "declaredFilename": "ic_zoom_out.png"
+      },
+      "categoryEvidence": "editorial-classification-not-official-taxonomy",
+      "sizePx": [
+        81,
+        81
+      ],
+      "bytes": 1468,
+      "sha256": "25fa2ce9b7d92470615918e7a1ad6a998417b33bcc8763ee41e274e7d3e37f7a",
+      "sourceUrl": "https://web.archive.org/web/20131122015712id_/http://downloads-us.blackberry.com/upr/developers/downloads/Action_Icons_BlackBerry_10.zip",
+      "distribution": "metadata-only",
+      "note": "尺寸、文件名及原像素均按实际PNG记录。",
+      "licenseStatus": "unresolved-no-grant-in-package"
+    }
+  ]
+}

@@ -35,8 +35,14 @@
 ## 推荐引用格式
 
 ```text
-酒鬼成员：《BlackBerry 10设计语言》，版本1.1.4。
+酒鬼成员：《BlackBerry 10设计语言》，版本1.2.0。
 https://github.com/boySang/BlackBerry-10-Design-Language
 主来源：BlackBerry 10 UI Guidelines，2015-03-23。
 实现参考：mybabysexy/BB10-UI-Kit，固定提交cbed5b73f3e5bc1aef10500034e4a2b9f191cd7b。
 ```
+
+## 图标来源
+
+历史Action包的原始下载地址、2013存档、ZIP/XLS校验和，以及两个官方GitHub样例库的完整提交见[图标来源与许可](icons/README.md)和[机器索引](icons/catalog.json)。索引保留原文件名和实际像素，不改色或描摹原图。该历史包是特定年份的资源，不是所有10.3系统图标的许可全集。
+
+历史ZIP/XLS没有附独立再分发授权记录；bbUI.js还含第三方素材许可段落。仓库的官方发布方、图形原创者、源码许可和资产许可须分别记录。6个Cascades样例按随库原Apache-2.0许可复用；其余原图仅索引。联系表工具不改变上游许可条件。

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "designLanguageVersion": "1.1.4",
+  "designLanguageVersion": "1.2.0",
   "status": "unconfigured-template-not-approved",
   "projectName": null,
   "adoptionMode": null,
@@ -288,5 +288,7 @@
       "top-accent-neutral",
       "accent-icon"
     ]
-  }
+  },
+  "iconCatalogVersion": null,
+  "iconMappings": []
 }
