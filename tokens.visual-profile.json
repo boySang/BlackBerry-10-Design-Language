@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "packageVersion": "1.1.3",
+  "packageVersion": "1.1.4",
   "format": "bb10-figure-measurements-and-platform-profile",
   "policy": "原图量测为近似推导，不是原文明示的BB10 px/du；实施值属于项目映射，不是官方测量值。",
   "sourcePdfSha256": "1992691e60573f037fa366880c64094448f668f774fefde4eb7ca8714d0b2364",
@@ -223,7 +223,9 @@
       "pressContainment": "在热区内触下高亮；移出撤销；移回恢复；禁用时不高亮。",
       "titleBarDisabledText": "#0092CC",
       "titleBarPressedBorder": "#444444",
-      "titleBarPressedScope": "当前完整命令分区变化；不显示独立按钮面，各状态共享几何。"
+      "titleBarPressedScope": "当前完整命令分区变化；不显示独立按钮面，各状态共享几何。",
+      "bottomPressContainment": "触下高亮；移出撤销、移回恢复；热区内松手执行；移出松手、取消、失焦和滚动清除。主圆露出区域包含在热区内。",
+      "bottomPressSource": "p.111提供行为；底栏专用按压颜色未见完整定义，componentVariants内色值为P级项目映射。"
     },
     "titleBarVariant": "lightweight-10.3",
     "historicalVariants": {
@@ -242,6 +244,79 @@
         "pressScope": "独立按钮面",
         "note": "有框几何保留在geometry的framedTitle*字段，仅显式选用该历史变体时应用。"
       }
+    },
+    "componentVariants": {
+      "dropdown": {
+        "flat-10.3": {
+          "pages": [
+            6,
+            104
+          ],
+          "evidence": "source-figure",
+          "note": "平面中性头部；p.104紧凑变体可保留当前值。既有33/31高度属于旧参考画布的实施值，不是通用热区。"
+        },
+        "classic-calendar-10.2.1": {
+          "pages": [
+            5
+          ],
+          "evidence": "source-figure",
+          "collapsed": "灰色渐变按钮面；标签左、当前值右、下箭头右",
+          "expanded": "蓝色渐变头部仅字段名、上箭头；选项右侧勾选",
+          "projectMapping": {
+            "evidence": "project-convention",
+            "logicalWidth": 360,
+            "headerMinHeight": 44,
+            "optionMinHeight": 46,
+            "headerPaddingX": 11,
+            "optionPaddingX": 12,
+            "fontSize": 14,
+            "cornerRadius": 2,
+            "chevronSize": 8,
+            "closedSurface": [
+              "#FAFAFA",
+              "#E6E6E6"
+            ],
+            "closedBorder": "#B6B6B6",
+            "openSurface": [
+              "#00A8D8",
+              "#007DAF"
+            ],
+            "selectedOptionSurface": "#FFFFFF"
+          }
+        }
+      },
+      "tabSelection": {
+        "top-accent-neutral": {
+          "pages": [
+            7
+          ],
+          "evidence": "source-figure",
+          "current": "细青蓝顶线、略亮暗底、浅色图标与正体标签",
+          "projectMapping": {
+            "evidence": "project-convention",
+            "topLineThickness": 2,
+            "topLineColor": "#00B9E8",
+            "foreground": "#EDEDED",
+            "currentSurface": [
+              "#383838",
+              "#2D2D2D"
+            ],
+            "pressedSurface": [
+              "#454545",
+              "#343434"
+            ],
+            "pressedInsetBorder": "#3CBCE7"
+          }
+        },
+        "accent-icon": {
+          "pages": [
+            143
+          ],
+          "evidence": "source-figure",
+          "note": "仅为selected图标资产参考，不能自动解释为所有Tab的完整选中皮肤。"
+        }
+      },
+      "combinationPolicy": "严格模式保持同版本整套语法；跨平台项目可显式选择组件组合并记录P级依据，不能宣称整个组合是官方单屏。"
     }
   },
   "distribution": "external-references"

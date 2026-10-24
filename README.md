@@ -1,6 +1,6 @@
 # BlackBerry 10 设计语言
 
-**整理作者：酒鬼成员 · 规范版本：1.1.3 · 中文整理版**
+**整理作者：酒鬼成员 · 规范版本：1.1.4 · 中文整理版**
 
 把黑莓的体验原则转成可以在真实项目里使用的设计约束：内容优先、底部高频操作、连续的页面层级、可取消的手势，以及统一的组件和状态。适用于原生 BB10 项目，也可作为 Android、网页及其他平台的适配参考。
 
@@ -24,13 +24,13 @@
 ## 立即用于其他项目
 
 1. 在项目入口记录本仓库链接及固定提交号；需要存放文件副本时，先确认 [文件复用的授权边界](SOURCES.md)，再放到 `docs/design/blackberry-10/`。
-2. 阅读正文、关键控件和动画标准；参照 [配置模板](PROJECT_PROFILE.template.json) 建立项目自己的 `PROJECT_PROFILE.json`，填写平台、屏幕、单位映射、字体和标题栏变体。
+2. 阅读正文、关键控件和动画标准；参照 [配置模板](PROJECT_PROFILE.template.json) 建立项目自己的 `PROJECT_PROFILE.json`，填写平台、屏幕、单位映射、字体、标题栏、下拉框和Tab选中变体。
 3. 将规范入口写进项目文档或 `AGENTS.md`，按验收清单交付真实截图与可操作结果。
 
 可直接交给其他AI或协作者：
 
 ```text
-本项目参考 https://github.com/boySang/BlackBerry-10-Design-Language 的设计语言1.1.3，
+本项目参考 https://github.com/boySang/BlackBerry-10-Design-Language 的设计语言1.1.4，
 固定本次采用的完整提交号；如已有授权保存的本地副本，读取 docs/design/blackberry-10/。
 先读 README.md、DESIGN_LANGUAGE.md、COMPONENT_STANDARDS.md、MOTION.md、GAPS.md，
 以及本项目的 PROJECT_PROFILE.json。
@@ -54,6 +54,8 @@
 JSON键名、单位和枚举保留技术标识，方便代码读取；说明文字使用中文。本格式为自描述参考格式，没有宣称可直接导入某种设计工具。
 
 标题栏默认使用 **lightweight-10.3轻量文字式取消/保存**，保留完整命令分区、细分隔线与主题色底线；**framed有框按钮**仅作为历史可选变体。二者来源和完整状态见关键控件标准，同类任务页统一选型。
+
+下拉框可显式采用p.5的`classic-calendar-10.2.1`灰色复合选择行；Tab可采用p.7的`top-accent-neutral`青色顶线与浅色图标。跨版本组合记录为项目决定，触摸按下与常驻选中分别处理；完整约束及数值依据见关键控件标准。
 
 ## 参考来源
 

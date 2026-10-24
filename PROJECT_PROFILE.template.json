@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "designLanguageVersion": "1.1.3",
+  "designLanguageVersion": "1.1.4",
   "status": "unconfigured-template-not-approved",
   "projectName": null,
   "adoptionMode": null,
@@ -273,5 +273,20 @@
   "allowedTitleBarVariants": [
     "framed",
     "lightweight-10.3"
-  ]
+  ],
+  "componentVariants": {
+    "dropdown": null,
+    "tabSelection": null,
+    "combinationBasis": null
+  },
+  "allowedComponentVariants": {
+    "dropdown": [
+      "flat-10.3",
+      "classic-calendar-10.2.1"
+    ],
+    "tabSelection": [
+      "top-accent-neutral",
+      "accent-icon"
+    ]
+  }
 }

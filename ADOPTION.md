@@ -38,7 +38,7 @@ your-project/
 ## 从规范变成可用组件
 
 1. 先读 [正文](DESIGN_LANGUAGE.md)、[关键控件](COMPONENT_STANDARDS.md)、[动画](MOTION.md) 与 [缺口](GAPS.md)，明确目标是严格参考、跨平台适配还是风格借鉴。
-2. 参照 [配置模板](PROJECT_PROFILE.template.json) 建立项目自己的配置，填写平台、系统版本、设备、实际可用窗口、密度、输入方式、字体回退与 `titleBarVariant`。未知值保留`null`。
+2. 参照 [配置模板](PROJECT_PROFILE.template.json) 建立项目自己的配置，填写平台、系统版本、设备、实际可用窗口、密度、输入方式、字体回退、`titleBarVariant`与`componentVariants`。未知值保留`null`。
 3. 从来源参数和视觉配置建立本项目自己的主题、尺寸、字体与时序令牌。统一实现底栏、主圆、两端入口、标题按钮、下拉、菜单、反馈和页面过渡，避免每一页单独模仿。
 4. 将项目决定写入配置，将偏离和未验证内容写入例外文档；不要修改来源参数来迁就实现。
 5. 按 [验收清单](ACCEPTANCE.md) 提交可操作结果、实际截图与输入/状态验证。
@@ -54,6 +54,7 @@ your-project/
 | `projectName`、`adoptionMode` | 实际项目名，以及下表中的采用方式 |
 | `target` | 实测设备、系统、可用窗口、逻辑单位、系统边距、方向与输入能力；设备像素与逻辑窗口分开填写 |
 | `titleBarVariant` | 明确选`framed`或`lightweight-10.3`，控制添加、编辑等同类任务页 |
+| `componentVariants` | 为dropdown与Tab分别填写变体；例如`dropdown: classic-calendar-10.2.1`、`tabSelection: top-accent-neutral`。若组合历史皮肤与新版主圆，记录为项目选择及P级依据 |
 | `fonts`、`theme` | 实际可用的中英文字体、回退与许可依据、字号缩放策略、明暗主题与主题色 |
 | `platformMappings` | 系统返回、手势、通知、分享、键盘/触控板等在目标平台的真实实现 |
 | `projectTokens` | 当前平台可执行的值、单位、依据、决定人和日期；不能把未定值隐式当成0 |
@@ -89,7 +90,7 @@ your-project/
 ```markdown
 ## 界面设计约束
 
-本项目采用 docs/design/blackberry-10/ 的 BlackBerry 10设计语言1.1.3。
+本项目采用 docs/design/blackberry-10/ 的 BlackBerry 10设计语言1.1.4。
 所有界面工作先读取 README.md、DESIGN_LANGUAGE.md、COMPONENT_STANDARDS.md、
 MOTION.md、GAPS.md，以及本项目的 PROJECT_PROFILE.json 和 DESIGN_EXCEPTIONS.md。
 
@@ -102,11 +103,14 @@ MOTION.md、GAPS.md，以及本项目的 PROJECT_PROFILE.json 和 DESIGN_EXCEPTI
 
 ```text
 请为本项目设计并实现【具体功能或页面】。
-采用 https://github.com/boySang/BlackBerry-10-Design-Language 的中文设计语言1.1.3。
+采用 https://github.com/boySang/BlackBerry-10-Design-Language 的中文设计语言1.1.4。
 固定本次采用的完整提交号并读取该版本；已有授权保存的本地副本就读取该副本。
 先完整读取 README.md、ADOPTION.md、DESIGN_LANGUAGE.md、COMPONENT_STANDARDS.md、
 MOTION.md、GAPS.md，再读取相关参数文件和 ACCEPTANCE.md。
 本项目模式为platform-adapted，标题栏采用lightweight-10.3轻量文字式取消/保存。
+按实际目标声明componentVariants；需要p.5表单和p.7顶线Tab时，分别选
+classic-calendar-10.2.1与top-accent-neutral，并记录跨版本组件组合为项目决定。
+Tab当前项用顶端细线、浅色图标和文字；触摸按下另设暂态，松手或移出及时清除。
 参照 PROJECT_PROFILE.template.json 建立项目配置，并记录未知值、适配和例外。
 先理解项目实际代码与设备配置，再整理页面、任务和导航结构。
 保留现有业务能力；以官方PDF为主来源，UI Kit只作实现参考。
